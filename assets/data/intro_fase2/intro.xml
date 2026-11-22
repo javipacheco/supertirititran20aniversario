@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<control>
+		<text-stop align="right" valign="center" text="Pulse una tecla para continuar" separate-line="10" text-align="right" x="620" y="456" font-size="17" font-ttf="$fuente$" background-transparent="true" fgR="0" fgG="0" fgB="0" bgR="130" bgG="176" bgB="225" />
+		<stop cycle="1150" />
+		<end cycle="1170" />
+	</control>
+	<objects>
+		<object type="image">
+			<data align="center" valign="center" file="astilleros.timp" />
+			<motion>
+				<cycle begin="10" end="270" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="290" />
+		</object>
+		<object type="image">
+			<data file="txt1_astilleros.timp" />
+			<motion>
+				<cycle begin="40" end="170" />
+				<coord-begin x="15" y="15" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="290" />
+		</object>
+		<object type="image">
+			<data align="right" valign="center" file="txt2_astilleros.timp" />
+			<motion>
+				<cycle begin="150" end="270" />
+				<coord-begin x="610" y="400" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="290" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="compra.timp" />
+			<motion>
+				<cycle begin="250" end="420" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="440" />
+		</object>
+		<object type="image">
+			<data file="txt_compra.timp" />
+			<motion>
+				<cycle begin="270" end="420" />
+				<coord-begin x="15" y="25" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="440" />
+		</object>
+		<object type="image">
+			<data file="construccion1.timp" />
+			<motion>
+				<cycle begin="400" end="520" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="520" />
+		</object>
+		<object type="image">
+			<data file="construccion2.timp" />
+			<motion>
+				<cycle begin="500" end="620" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="640" />
+		</object>
+		<object type="image">
+			<data file="construccion3.timp" />
+			<motion>
+				<cycle begin="600" end="720" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="760" />
+		</object>
+		<object type="image">
+			<data file="construccion4.timp" />
+			<motion>
+				<cycle begin="700" end="820" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="880" />
+		</object>
+		<object type="image">
+			<data file="txt_proyecto1.timp" />
+			<motion>
+				<cycle begin="420" end="500" />
+				<coord-begin x="15" y="15" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="820" />
+		</object>
+		<object type="image">
+			<data align="right" file="martillo.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="480" end="640" />
+				<coord-begin x="620" y="20" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="640" />
+		</object>
+		<object type="image">
+			<data align="right" file="txt_proyecto2.timp" />
+			<motion>
+				<cycle begin="510" end="640" />
+				<coord-begin x="570" y="250" />
+				<fade-in cycles="10"/>
+				<fade-out cycles="10"/>
+			</motion>
+			<disappear cycle="620" />
+		</object>
+		<object type="image">
+			<data align="right" file="asombro.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="620" end="820" />
+				<coord-begin x="620" y="150" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+			<disappear cycle="820" />
+		</object>
+		<object type="image">
+			<data align="right" file="txt_proyecto3.timp" />
+			<motion>
+				<cycle begin="640" end="820" />
+				<coord-begin x="570" y="390" />
+				<fade-in cycles="10"/>
+				<fade-out cycles="10"/>
+			</motion>
+			<disappear cycle="820" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="ojos1.timp" />
+			<motion>
+				<cycle begin="820" end="950" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="10"/>
+			</motion>
+			<disappear cycle="950" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="txt_vida.timp" />
+			<motion>
+				<cycle begin="820" end="950" />
+				<coord-begin x="320" y="60" />
+				<fade-in cycles="10"/>
+			</motion>
+			<disappear cycle="950" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="ojos2.timp" />
+			<motion>
+				<cycle begin="950" end="1040" />
+				<coord-begin x="320" y="240" />
+				<fade-out cycles="10"/>
+			</motion>
+			<disappear cycle="1040" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="txt_despierta.timp" />
+			<motion>
+				<cycle begin="950" end="1040" />
+				<coord-begin x="320" y="440" />
+				<fade-out cycles="10"/>
+			</motion>
+			<disappear cycle="950" />
+		</object>
+		<object type="image">
+			<data align="right" file="final.timp" />
+			<motion>
+				<cycle begin="1040" end="1200" />
+				<coord-begin x="640" y="0" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="1200" />
+		</object>
+		<object type="image">
+			<data file="tirachinas.timp" />
+			<motion>
+				<cycle begin="1090" end="1200" />
+				<coord-begin x="30" y="15" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="1200" />
+		</object>
+		<object type="image">
+			<data valign="center" file="txt_lanzando.timp" />
+			<motion>
+				<cycle begin="1100" end="1200" />
+				<coord-begin x="270" y="30" />
+				<fade-in cycles="10"/>
+			</motion>
+			<disappear cycle="950" />
+		</object>
+		<object type="image">
+			<data valign="bottom" file="llamada.timp" />
+			<motion>
+				<cycle begin="1110" end="1200" />
+				<coord-begin x="30" y="465" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="1200" />
+		</object>
+		<object type="image">
+			<data valign="center" file="txt_aguantar.timp" />
+			<motion>
+				<cycle begin="1140" end="1200" />
+				<coord-begin x="270" y="415" />
+				<fade-in cycles="10"/>
+			</motion>
+			<disappear cycle="950" />
+		</object>
+	</objects>
+</anim>

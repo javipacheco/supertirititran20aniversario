@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<control>
+		<text-stop align="right" valign="bottom" text="Pulse una tecla para continuar" separate-line="10" text-align="right" x="630" y="475" font-size="17" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+		<stop cycle="670" />
+		<end cycle="690" />
+	</control>
+	<objects>
+		<object type="sound">
+			<data volumen="100" file="playa.tsog" />
+			<sounds>
+				<sound cycle-in="0" loops="0" cycle-out="560" time-fadeout="4200" />					
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="100" file="burbujas.tsog" />
+			<sounds>
+				<sound cycle-in="130" loops="0" />
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="70" file="cangrejo.tsog" />
+			<sounds>
+				<sound cycle-in="200" loops="0" />
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="100" file="gritos.tsog" />
+			<sounds>
+				<sound cycle-in="260" loops="0" cycle-out="560" time-fadeout="4200"  />							
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="90" file="musica.tsog" />
+			<sounds>
+				<sound cycle-in="290" loops="0" cycle-out="580" time-fadeout="3600" />				
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="90" file="guerrilla.tsog" />
+			<sounds>
+				<sound cycle-in="400" loops="0" cycle-out="560" time-fadeout="4200" />				
+			</sounds>
+		</object>
+
+		<object type="sound">
+			<data volumen="80" file="tirititran.tsog" />
+			<sounds>
+				<sound cycle-in="650" loops="0" />
+			</sounds>
+		</object>
+
+		<object type="image">
+			<data align="left" valign="top" file="vineta1.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="0" end="410" />
+				<coord-begin x="70" y="0" />
+				<fade-in cycles="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta2.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="140" end="410" />
+				<coord-begin x="103" y="54" />
+				<fade-in cycles="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta4.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="235" end="245" />
+				<coord-begin x="165" y="93" />
+				<coord-end x="165" y="13" />
+				<fade-in cycles="10" />
+			</motion>
+			<disappear cycle="410" />
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta3.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="200" end="410" />
+				<coord-begin x="92" y="36" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta5.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="280" end="410" />
+				<coord-begin x="446" y="165" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta6.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="295" end="410" />
+				<coord-begin x="439" y="1" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta7.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="310" end="410" />
+				<coord-begin x="44" y="94" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta8.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="325" end="410" />
+				<coord-begin x="68" y="287" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta9.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="340" end="410" />
+				<coord-begin x="369" y="322" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="desaturado.timp" />
+			<motion>
+				<cycle begin="390" end="620" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20" />
+				<fade-out cycles="40" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="vineta10.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="410" end="620" />
+				<coord-begin x="128" y="22" />
+				<fade-in cycles="30" />
+				<fade-out cycles="40" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="cartel_final.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="440" end="620" />
+				<coord-begin x="320" y="430" />
+				<fade-in cycles="20" />
+				<fade-out cycles="40" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="tirititran_frente.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="650" end="680" />
+				<coord-begin x="350" y="235" />
+			</motion>
+		</object>
+	</objects>
+</anim>

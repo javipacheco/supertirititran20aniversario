@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anim>
+	<control>
+		<text-stop align="right" valign="bottom" text="Pulse una tecla para continuar" separate-line="10" text-align="right" x="630" y="475" font-size="17" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+		<stop cycle="250" />
+		<end cycle="290" />
+	</control>
+	<objects>
+		<object type="sound">
+			<data volumen="100" file="opciones.tsog" />
+			<sounds>
+				<sound cycle-in="10" loops="-1" cycle-out="250" time-fadeout="2000" />
+				<!--  cycle-out="200" time-fadeout="4000" -->
+			</sounds>
+		</object>
+		<object type="image">
+			<data align="right" valign="bottom" file="tirititran.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="0" end="290" />
+				<coord-begin x="640" y="480" />
+				<fade-in cycles="20" opacity-begin="0" opacity-end="100" />
+				<fade-out cycles="20" opacity-begin="100" opacity-end="0" />
+			</motion>
+		</object>
+		<object type="text">
+			<data align="center" valign="top" text="Aprendiendo a ser Superhéroe" separate-line="5" text-align="center" font-size="22" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="20" end="280" />
+				<coord-begin x="320" y="50" />
+				<fade-in cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<object type="text">
+			<data align="center" valign="top" text="Tienes que estar atento durante los dos próximos minutos.|En este tiempo aprenderás todo lo que tienes que|saber para poder salvar Cádiz.| |Para llevar a cabo las misiones es muy importante|que conozcas como manejar a Tirititran y saber|usar sus poderes.| |Contamos contigo." separate-line="5" text-align="center" font-size="18" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="40" end="280" />
+				<coord-begin x="320" y="100" />
+				<fade-in cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+	</objects>
+</anim>

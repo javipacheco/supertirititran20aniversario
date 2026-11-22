@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<loading>
+		<load file="cargando.timp" />
+	</loading>
+	<objects>
+		<object type="sound">
+			<data volumen="80" file="triunfal.tsog" />
+			<sounds>
+				<sound cycle-in="10" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="128" file="cumplida.tsog" />
+			<sounds>
+				<sound cycle-in="30" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="camara.tsog" />
+			<sounds>
+				<sound cycle-in="95" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="aplausos.tsog" />
+			<sounds>
+				<sound cycle-in="110" loops="0" />
+			</sounds>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="foto.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="0" end="100" />
+				<coord-begin x="260" y="240" />
+				<fade-in cycles="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="top" file="cumplida.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="20" end="30" />
+				<coord-begin x="260" y="500" />
+				<coord-end x="260" y="390" />
+			</motion>
+			<disappear cycle="100" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="diario.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="100" end="120" />
+				<coord-begin x="260" y="240" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="blanco.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="90" end="110" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="5" />
+				<fade-out cycles="5" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="clave.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="240" end="250" />
+				<coord-begin x="260" y="285" />
+				<curtain-in-vertical cycles="10"/>
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" file="filo_barra.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="0" end="30" />
+				<coord-begin x="520" y="0" />
+			</motion>
+		</object>
+	</objects>
+</anim>

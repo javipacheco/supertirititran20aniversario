@@ -1,0 +1,152 @@
+{
+  "source": "cpp/tirititran-0.9/src/elementos.cpp",
+  "sha256": "7ec1220de7f7ee04d5ed5f4a459be72b8c217f48902b87bdc57bcb8cd3836631",
+  "gods": [
+    {
+      "god": "BACO",
+      "shots": {
+        "30": {
+          "type": "small",
+          "pattern": "burst",
+          "bursts": 4
+        },
+        "80": {
+          "type": "blue",
+          "pattern": "five"
+        },
+        "180": {
+          "type": "rot",
+          "pattern": "five"
+        },
+        "200": {
+          "type": "rot",
+          "pattern": "five"
+        },
+        "330": {
+          "type": "small",
+          "pattern": "three"
+        },
+        "410": {
+          "type": "blue",
+          "pattern": "closedThree"
+        },
+        "450": {
+          "type": "rot",
+          "pattern": "five"
+        },
+        "470": {
+          "type": "rot",
+          "pattern": "closedThree"
+        }
+      }
+    },
+    {
+      "god": "HERCULES",
+      "shots": {
+        "20": {
+          "type": "rot",
+          "pattern": "pair"
+        },
+        "40": {
+          "type": "rot",
+          "pattern": "pair"
+        },
+        "60": {
+          "type": "rot",
+          "pattern": "pair"
+        },
+        "160": {
+          "type": "small",
+          "pattern": "pair"
+        },
+        "180": {
+          "type": "small",
+          "pattern": "pair"
+        },
+        "200": {
+          "type": "rot",
+          "pattern": "pair"
+        },
+        "260": {
+          "type": "small",
+          "pattern": "burst",
+          "bursts": 2
+        },
+        "360": {
+          "type": "rot",
+          "pattern": "circle"
+        },
+        "400": {
+          "type": "rot",
+          "pattern": "circle"
+        },
+        "440": {
+          "type": "small",
+          "pattern": "five"
+        },
+        "460": {
+          "type": "small",
+          "pattern": "five"
+        }
+      }
+    },
+    {
+      "god": "NEPTUNO",
+      "shots": {
+        "100": {
+          "type": "large",
+          "pattern": "three"
+        },
+        "120": {
+          "type": "large",
+          "pattern": "three"
+        },
+        "160": {
+          "type": "rot",
+          "pattern": "five"
+        },
+        "180": {
+          "type": "rot",
+          "pattern": "five"
+        },
+        "260": {
+          "type": "blue",
+          "pattern": "sides"
+        },
+        "280": {
+          "type": "blue",
+          "pattern": "diagonal"
+        },
+        "300": {
+          "type": "blue",
+          "pattern": "cross"
+        },
+        "320": {
+          "type": "blue",
+          "pattern": "diagonal"
+        },
+        "340": {
+          "type": "blue",
+          "pattern": "cross"
+        },
+        "380": {
+          "type": "blue",
+          "pattern": "sides"
+        },
+        "410": {
+          "type": "small",
+          "pattern": "burst",
+          "bursts": 2
+        },
+        "440": {
+          "type": "large",
+          "pattern": "five"
+        },
+        "460": {
+          "type": "large",
+          "pattern": "five"
+        }
+      }
+    }
+  ]
+}

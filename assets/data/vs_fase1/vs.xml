@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<loading>
+		<load file="cargando.timp" />
+	</loading>
+	<objects>
+	<!--
+		<object type="background">
+			<background cycle="0" red="0" green="0" blue="0" file="fondo.timp" position="top-left" image-with-alpha="true" />
+		</object>-->
+		<object type="sound">
+			<data volumen="100" file="fanfarria.tsog" />
+			<sounds>
+				<sound cycle-in="10" loops="0" />
+			</sounds>
+		</object>
+		<object type="image">
+			<data file="fondo.timp"/>
+			<motion>
+				<cycle begin="0" end="30" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="10" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" valign="center" file="tirititran.timp" image-with-alpha="true" bgR="114" bgG="115" bgB="86"/>
+			<motion>
+				<cycle begin="10" end="20" />
+				<coord-begin x="880" y="120" />
+				<coord-end x="500" y="120" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="center" file="cangrejo.timp" image-with-alpha="true" bgR="114" bgG="115" bgB="86"/>
+			<motion>
+				<cycle begin="20" end="30" />
+				<coord-begin x="-400" y="380" />
+				<coord-end x="30" y="380" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" valign="bottom" file="cangrejo_il.timp" image-with-alpha="true" bgR="0" bgG="0" bgB="250" />
+			<motion>
+				<cycle begin="20" end="30" />
+				<coord-begin x="870" y="460" />
+				<coord-end x="560" y="460" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="tirititran_il.timp" image-with-alpha="true" bgR="0" bgG="0" bgB="250" />
+			<motion>
+				<cycle begin="10" end="20" />
+				<coord-begin x="-250" y="20" />
+				<coord-end x="0" y="20" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="vs.timp" image-with-alpha="true" bgR="114" bgG="115" bgB="86"/>
+			<motion>
+				<cycle begin="30" end="70" />
+				<coord-begin x="260" y="220" />
+				<fade-in cycles="10" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" file="filo_barra.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="0" end="30" />
+				<coord-begin x="520" y="0" />
+			</motion>
+		</object>
+	</objects>
+</anim>

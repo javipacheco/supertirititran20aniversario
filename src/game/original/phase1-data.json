@@ -1,0 +1,3550 @@
+{
+  "pickups": [
+    {
+      "cycle": 230,
+      "type": "poder"
+    },
+    {
+      "cycle": 560,
+      "type": "disparo"
+    },
+    {
+      "cycle": 1100,
+      "type": "poder"
+    },
+    {
+      "cycle": 1590,
+      "type": "poder"
+    },
+    {
+      "cycle": 1950,
+      "type": "disparo"
+    },
+    {
+      "cycle": 2180,
+      "type": "poder"
+    },
+    {
+      "cycle": 3485,
+      "type": "disparo"
+    },
+    {
+      "cycle": 4100,
+      "type": "poder"
+    }
+  ],
+  "source": "cpp/tirititran-0.9/src/niveles.cpp",
+  "sha256": "a1c0912499a519fe511005bec136cd6d2fa52ae7303e0a320a34b543c3d442d7",
+  "entries": [
+    {
+      "cycle": 110,
+      "family": "gaviota1",
+      "x": 56,
+      "absolute": true,
+      "sourceLine": 38,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 80,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 110,
+      "family": "gaviota1",
+      "x": 400,
+      "absolute": true,
+      "sourceLine": 46,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": -80,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 180,
+      "family": "gaviota2",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 60,
+      "moves": [
+        [
+          0,
+          20,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 180,
+      "family": "gaviota2",
+      "x": 540,
+      "absolute": true,
+      "sourceLine": 69,
+      "moves": [
+        [
+          0,
+          20,
+          -6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 240,
+      "family": "caseta",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 87,
+      "moves": [],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 1,
+          "interval": 60
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 360,
+      "family": "gaviota2",
+      "x": 250,
+      "absolute": true,
+      "sourceLine": 100,
+      "moves": [
+        [
+          0,
+          20,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          20,
+          -7,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 380,
+      "family": "medium",
+      "x": -88,
+      "absolute": true,
+      "sourceLine": 114,
+      "moves": [
+        [
+          0,
+          -1,
+          6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": 120
+    },
+    {
+      "cycle": 460,
+      "family": "gaviota1",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 124,
+      "moves": [
+        [
+          0,
+          35,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 6,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 520,
+      "family": "medium",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 142,
+      "moves": [
+        [
+          0,
+          15,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          50,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 580,
+      "family": "medium",
+      "x": 42,
+      "absolute": true,
+      "sourceLine": 161,
+      "moves": [
+        [
+          0,
+          15,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          50,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 620,
+      "family": "small",
+      "x": 104,
+      "absolute": true,
+      "sourceLine": 173,
+      "moves": [
+        [
+          1,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 2,
+        "delay": 20,
+        "family": "small",
+        "dx": 180,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 670,
+      "family": "large",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 183,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          220,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 50,
+          "type": "large",
+          "pattern": "circle",
+          "count": 2,
+          "interval": 40
+        },
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "sides",
+          "count": 3,
+          "interval": 20
+        },
+        {
+          "at": 160,
+          "type": "large",
+          "pattern": "pair",
+          "count": 6,
+          "interval": 10
+        }
+      ],
+      "gift": "poder",
+      "y": -158
+    },
+    {
+      "cycle": 730,
+      "family": "gaviota2",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 198,
+      "moves": [
+        [
+          0,
+          30,
+          6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320,
+      "followers": {
+        "count": 2,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 780,
+      "family": "gaviota2",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 210,
+      "moves": [
+        [
+          0,
+          15,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          35,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 400,
+      "followers": {
+        "count": 2,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 800,
+      "family": "crab",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 222,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 80
+    },
+    {
+      "cycle": 840,
+      "family": "gavibot",
+      "x": 54,
+      "absolute": true,
+      "sourceLine": 231,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          90,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "cross",
+          "count": 4,
+          "interval": 40
+        },
+        {
+          "at": 60,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 4,
+          "interval": 40
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 840,
+      "family": "gavibot",
+      "x": 366,
+      "absolute": true,
+      "sourceLine": 242,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          90,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "cross",
+          "count": 4,
+          "interval": 40
+        },
+        {
+          "at": 60,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 4,
+          "interval": 40
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 850,
+      "family": "caseta",
+      "x": 416,
+      "absolute": true,
+      "sourceLine": 255,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 1,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 900,
+      "family": "small",
+      "x": 104,
+      "absolute": true,
+      "sourceLine": 264,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          30,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 6,
+        "delay": 10,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 920,
+      "family": "boat",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 281,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          -6,
+          -1
+        ],
+        [
+          0,
+          40,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          35,
+          -4,
+          -4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 30,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 50
+        }
+      ],
+      "y": 480
+    },
+    {
+      "cycle": 1090,
+      "family": "gaviota1",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 295,
+      "moves": [
+        [
+          0,
+          25,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          15,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          15,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 160,
+      "followers": {
+        "count": 7,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1090,
+      "family": "gaviota1",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 307,
+      "moves": [
+        [
+          0,
+          25,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          15,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          15,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 160,
+      "followers": {
+        "count": 7,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1150,
+      "family": "zeppelin",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 321,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          30,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          60,
+          -4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          25,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          180,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 80,
+          "type": "large",
+          "pattern": "burst",
+          "count": 5,
+          "interval": 30
+        },
+        {
+          "at": 240,
+          "type": "small",
+          "pattern": "five",
+          "count": 4,
+          "interval": 40
+        },
+        {
+          "at": 250,
+          "type": "large",
+          "pattern": "five",
+          "count": 3,
+          "interval": 30
+        }
+      ],
+      "gift": "disparo",
+      "y": -167
+    },
+    {
+      "cycle": 1200,
+      "family": "gavibot",
+      "x": 36,
+      "absolute": true,
+      "sourceLine": 349,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 40
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1200,
+      "family": "gavibot",
+      "x": 380,
+      "absolute": true,
+      "sourceLine": 359,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 40
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1350,
+      "family": "gaviota1",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 371,
+      "moves": [
+        [
+          0,
+          40,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 538,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1350,
+      "family": "gaviota1",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 380,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 538,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1400,
+      "family": "boat",
+      "x": 130,
+      "absolute": true,
+      "sourceLine": 391,
+      "moves": [
+        [
+          0,
+          65,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 50
+        }
+      ],
+      "y": -67
+    },
+    {
+      "cycle": 1450,
+      "family": "caseta",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 402,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 1550,
+      "family": "medium",
+      "x": 30,
+      "absolute": true,
+      "sourceLine": 415,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 1550,
+      "family": "medium",
+      "x": 400,
+      "absolute": true,
+      "sourceLine": 425,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 1565,
+      "family": "gavibot",
+      "x": 123,
+      "absolute": true,
+      "sourceLine": 437,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1565,
+      "family": "gavibot",
+      "x": 296,
+      "absolute": true,
+      "sourceLine": 447,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1600,
+      "family": "crab",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 466,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 80
+    },
+    {
+      "cycle": 1670,
+      "family": "crab",
+      "x": 312,
+      "absolute": true,
+      "sourceLine": 522,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 50
+    },
+    {
+      "cycle": 1700,
+      "family": "gaviota1",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 475,
+      "moves": [
+        [
+          0,
+          25,
+          -6,
+          -6,
+          -1
+        ],
+        [
+          0,
+          15,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320,
+      "followers": {
+        "count": 5,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1720,
+      "family": "boat",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 491,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 50
+        }
+      ],
+      "y": -67
+    },
+    {
+      "cycle": 1800,
+      "family": "caseta",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 501,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 1840,
+      "family": "boat",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 510,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          25,
+          -6,
+          -6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 50
+        }
+      ],
+      "y": -67
+    },
+    {
+      "cycle": 1900,
+      "family": "crab",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 531,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ]
+    },
+    {
+      "cycle": 2000,
+      "family": "zeppelin",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 546,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          25,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          50,
+          -4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          25,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          140,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 80,
+          "type": "large",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 30
+        },
+        {
+          "at": 240,
+          "type": "small",
+          "pattern": "circle",
+          "count": 3,
+          "interval": 40
+        }
+      ],
+      "gift": "poder",
+      "y": -167
+    },
+    {
+      "cycle": 2100,
+      "family": "gaviota1",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 569,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 100,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2100,
+      "family": "gaviota1",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 577,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": -100,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2140,
+      "family": "caseta",
+      "x": 416,
+      "absolute": true,
+      "sourceLine": 616,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 2160,
+      "family": "gavibot",
+      "x": 36,
+      "absolute": true,
+      "sourceLine": 587,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 2160,
+      "family": "gavibot",
+      "x": 380,
+      "absolute": true,
+      "sourceLine": 597,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 2200,
+      "family": "boat",
+      "x": 104,
+      "absolute": true,
+      "sourceLine": 625,
+      "moves": [
+        [
+          0,
+          50,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 60
+        }
+      ],
+      "y": -67
+    },
+    {
+      "cycle": 2220,
+      "family": "small",
+      "x": 106,
+      "absolute": true,
+      "sourceLine": 636,
+      "moves": [
+        [
+          1,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 1,
+        "delay": 50,
+        "family": "small",
+        "dx": 130,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2250,
+      "family": "medium",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 646,
+      "moves": [
+        [
+          2,
+          5,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          20,
+          -6,
+          0,
+          -1
+        ],
+        [
+          2,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": 80
+    },
+    {
+      "cycle": 2250,
+      "family": "medium",
+      "x": -88,
+      "absolute": true,
+      "sourceLine": 657,
+      "moves": [
+        [
+          2,
+          5,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          20,
+          6,
+          0,
+          -1
+        ],
+        [
+          2,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": 80
+    },
+    {
+      "cycle": 2400,
+      "family": "mine",
+      "x": 173,
+      "absolute": true,
+      "sourceLine": 673,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 160
+    },
+    {
+      "cycle": 2420,
+      "family": "mine",
+      "x": 346,
+      "absolute": true,
+      "sourceLine": 682,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240
+    },
+    {
+      "cycle": 2440,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 691,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 3,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 120,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2500,
+      "family": "mine",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 701,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 288
+    },
+    {
+      "cycle": 2540,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 710,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 3,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 120,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2570,
+      "family": "mine",
+      "x": 260,
+      "absolute": true,
+      "sourceLine": 721,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 80
+    },
+    {
+      "cycle": 2600,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 730,
+      "moves": [
+        [
+          0,
+          -1,
+          -6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 3,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 120,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2640,
+      "family": "mine",
+      "x": 65,
+      "absolute": true,
+      "sourceLine": 740,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 60
+    },
+    {
+      "cycle": 2720,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 749,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 3,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 120,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2790,
+      "family": "mine",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 760,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 192
+    },
+    {
+      "cycle": 2810,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 769,
+      "moves": [
+        [
+          0,
+          -1,
+          6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 3,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 150,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2850,
+      "family": "mine",
+      "x": 344,
+      "absolute": true,
+      "sourceLine": 779,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 80
+    },
+    {
+      "cycle": 2860,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 788,
+      "moves": [
+        [
+          0,
+          20,
+          -6,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -10,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 4,
+        "delay": 8,
+        "family": "gaviota1",
+        "dx": 110,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2870,
+      "family": "mine",
+      "x": 312,
+      "absolute": true,
+      "sourceLine": 799,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 400
+    },
+    {
+      "cycle": 2880,
+      "family": "gaviota1",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 808,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": -300,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2900,
+      "family": "mine",
+      "x": 172,
+      "absolute": true,
+      "sourceLine": 818,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 192
+    },
+    {
+      "cycle": 2940,
+      "family": "gaviota1",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 827,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 2,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": -200,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2980,
+      "family": "mine",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 837,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 80
+    },
+    {
+      "cycle": 3000,
+      "family": "mine",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 846,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 288
+    },
+    {
+      "cycle": 3020,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 855,
+      "moves": [
+        [
+          0,
+          30,
+          -6,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -10,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 4,
+        "delay": 8,
+        "family": "gaviota1",
+        "dx": 110,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3050,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 866,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          10,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -10,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 2,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 150,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3080,
+      "family": "mine",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 877,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 400
+    },
+    {
+      "cycle": 3100,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 886,
+      "moves": [
+        [
+          0,
+          -1,
+          -6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 4,
+        "delay": 8,
+        "family": "gaviota1",
+        "dx": 110,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3110,
+      "family": "mine",
+      "x": 208,
+      "absolute": true,
+      "sourceLine": 896,
+      "moves": [
+        [
+          0,
+          -1,
+          2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240
+    },
+    {
+      "cycle": 3120,
+      "family": "mine",
+      "x": 430,
+      "absolute": true,
+      "sourceLine": 905,
+      "moves": [
+        [
+          0,
+          -1,
+          -2,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320
+    },
+    {
+      "cycle": 3150,
+      "family": "gaviota1",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 914,
+      "moves": [
+        [
+          0,
+          -1,
+          6,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 4,
+        "delay": 8,
+        "family": "gaviota1",
+        "dx": 130,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3250,
+      "family": "gaviota1",
+      "x": 400,
+      "absolute": true,
+      "sourceLine": 935,
+      "moves": [
+        [
+          0,
+          35,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 7,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3360,
+      "family": "gaviota2",
+      "x": 56,
+      "absolute": true,
+      "sourceLine": 946,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          30,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          15,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          15,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 5,
+        "delay": 12,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3480,
+      "family": "caseta",
+      "x": 370,
+      "absolute": true,
+      "sourceLine": 961,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 3490,
+      "family": "crab",
+      "x": 148,
+      "absolute": true,
+      "sourceLine": 977,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 60
+    },
+    {
+      "cycle": 3580,
+      "family": "boat",
+      "x": -67,
+      "absolute": true,
+      "sourceLine": 986,
+      "moves": [
+        [
+          0,
+          70,
+          4,
+          -4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 1,
+          "interval": 40
+        }
+      ],
+      "y": 320
+    },
+    {
+      "cycle": 3630,
+      "family": "boat",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 997,
+      "moves": [
+        [
+          0,
+          90,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          40,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 1,
+          "interval": 40
+        }
+      ],
+      "y": -67
+    },
+    {
+      "cycle": 3640,
+      "family": "large",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 1009,
+      "moves": [
+        [
+          0,
+          80,
+          -2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 10
+        },
+        {
+          "at": 130,
+          "type": "large",
+          "pattern": "five",
+          "count": 3,
+          "interval": 24
+        }
+      ],
+      "y": 400
+    },
+    {
+      "cycle": 3730,
+      "family": "crab",
+      "x": 172,
+      "absolute": true,
+      "sourceLine": 1022,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 68
+    },
+    {
+      "cycle": 3740,
+      "family": "zeppelin",
+      "x": -104,
+      "absolute": true,
+      "sourceLine": 1031,
+      "moves": [
+        [
+          0,
+          80,
+          2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 10
+        },
+        {
+          "at": 130,
+          "type": "large",
+          "pattern": "five",
+          "count": 6,
+          "interval": 23
+        }
+      ],
+      "gift": "vida",
+      "y": 400
+    },
+    {
+      "cycle": 3750,
+      "family": "gaviota2",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 1045,
+      "moves": [
+        [
+          0,
+          15,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3750,
+      "family": "gaviota2",
+      "x": 540,
+      "absolute": true,
+      "sourceLine": 1054,
+      "moves": [
+        [
+          0,
+          20,
+          -6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3820,
+      "family": "crab",
+      "x": 172,
+      "absolute": true,
+      "sourceLine": 1065,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 68
+    },
+    {
+      "cycle": 3840,
+      "family": "gavibot",
+      "x": 380,
+      "absolute": true,
+      "sourceLine": 1074,
+      "moves": [
+        [
+          0,
+          25,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          40,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "large",
+          "pattern": "pair",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 3990,
+      "family": "small",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 1086,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          30,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 6,
+        "delay": 10,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4175,
+      "family": "crab",
+      "x": 258,
+      "absolute": true,
+      "sourceLine": 1134,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 6,
+          "interval": 70
+        }
+      ],
+      "y": 68
+    },
+    {
+      "cycle": 4180,
+      "family": "caseta",
+      "x": 444,
+      "absolute": true,
+      "sourceLine": 1143,
+      "moves": [],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 70
+        }
+      ],
+      "y": -68
+    },
+    {
+      "cycle": 4190,
+      "family": "boat",
+      "x": -67,
+      "absolute": true,
+      "sourceLine": 1152,
+      "moves": [
+        [
+          0,
+          70,
+          4,
+          -4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 160
+    },
+    {
+      "cycle": 4200,
+      "family": "medium",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 1110,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          60,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "three",
+          "count": 2,
+          "interval": 40
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 4210,
+      "family": "boat",
+      "x": 86,
+      "absolute": true,
+      "sourceLine": 1162,
+      "moves": [
+        [
+          0,
+          90,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -67
+    },
+    {
+      "cycle": 4220,
+      "family": "medium",
+      "x": 42,
+      "absolute": true,
+      "sourceLine": 1122,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          60,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "three",
+          "count": 2,
+          "interval": 40
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 4230,
+      "family": "gaviota2",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 1172,
+      "moves": [
+        [
+          0,
+          25,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4280,
+      "family": "gaviota1",
+      "x": 148,
+      "absolute": true,
+      "sourceLine": 1182,
+      "moves": [
+        [
+          1,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 350,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4310,
+      "family": "medium",
+      "x": 104,
+      "absolute": true,
+      "sourceLine": 1192,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          60,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 10
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 4310,
+      "family": "medium",
+      "x": 326,
+      "absolute": true,
+      "sourceLine": 1202,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          60,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "five",
+          "count": 2,
+          "interval": 10
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 4420,
+      "family": "large",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 1214,
+      "moves": [
+        [
+          0,
+          35,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          180,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 50,
+          "type": "large",
+          "pattern": "closedThree",
+          "count": 2,
+          "interval": 40
+        },
+        {
+          "at": 100,
+          "type": "small",
+          "pattern": "sides",
+          "count": 2,
+          "interval": 40
+        },
+        {
+          "at": 130,
+          "type": "large",
+          "pattern": "pair",
+          "count": 6,
+          "interval": 10
+        }
+      ],
+      "y": -158
+    },
+    {
+      "cycle": 4530,
+      "family": "gaviota1",
+      "x": 400,
+      "absolute": true,
+      "sourceLine": 1228,
+      "moves": [
+        [
+          0,
+          50,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 538,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4530,
+      "family": "gaviota1",
+      "x": 56,
+      "absolute": true,
+      "sourceLine": 1237,
+      "moves": [
+        [
+          0,
+          40,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 538,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4580,
+      "family": "gavibot",
+      "x": 80,
+      "absolute": true,
+      "sourceLine": 1248,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          70,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "large",
+          "pattern": "cross",
+          "count": 6,
+          "interval": 10
+        },
+        {
+          "at": 50,
+          "type": "small",
+          "pattern": "three",
+          "count": 3,
+          "interval": 23
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 4580,
+      "family": "gavibot",
+      "x": 340,
+      "absolute": true,
+      "sourceLine": 1259,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          70,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "large",
+          "pattern": "cross",
+          "count": 6,
+          "interval": 10
+        },
+        {
+          "at": 50,
+          "type": "small",
+          "pattern": "three",
+          "count": 3,
+          "interval": 23
+        }
+      ],
+      "y": -100
+    }
+  ]
+}

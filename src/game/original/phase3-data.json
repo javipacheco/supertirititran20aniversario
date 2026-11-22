@@ -1,0 +1,5088 @@
+{
+  "source": "cpp/tirititran-0.9/src/niveles.cpp",
+  "sha256": "a1c0912499a519fe511005bec136cd6d2fa52ae7303e0a320a34b543c3d442d7",
+  "entries": [
+    {
+      "cycle": 100,
+      "family": "car",
+      "x": 65,
+      "absolute": true,
+      "sourceLine": 1431,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_rj",
+      "y": -78
+    },
+    {
+      "cycle": 110,
+      "family": "car",
+      "x": 106,
+      "absolute": true,
+      "sourceLine": 1441,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_gr",
+      "y": -85
+    },
+    {
+      "cycle": 140,
+      "family": "car",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 1451,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          10,
+          -4,
+          10,
+          -1
+        ],
+        [
+          0,
+          10,
+          4,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": -85
+    },
+    {
+      "cycle": 180,
+      "family": "gaviota2",
+      "x": 56,
+      "absolute": true,
+      "sourceLine": 1468,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 4,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 80,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 220,
+      "family": "gavibot",
+      "x": 54,
+      "absolute": true,
+      "sourceLine": 1478,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 15
+        },
+        {
+          "at": 80,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 220,
+      "family": "gavibot",
+      "x": 366,
+      "absolute": true,
+      "sourceLine": 1489,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 15
+        },
+        {
+          "at": 80,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 300,
+      "family": "small",
+      "x": 236,
+      "absolute": true,
+      "sourceLine": 1502,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 4,
+        "delay": 20,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 310,
+      "family": "small",
+      "x": 236,
+      "absolute": true,
+      "sourceLine": 1513,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 4,
+        "delay": 20,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 350,
+      "family": "car",
+      "x": 345,
+      "absolute": true,
+      "sourceLine": 1524,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 380,
+      "family": "fenceLeft",
+      "x": 35,
+      "absolute": true,
+      "sourceLine": 1538,
+      "moves": [],
+      "shots": [],
+      "y": -58
+    },
+    {
+      "cycle": 390,
+      "family": "car",
+      "x": 127,
+      "absolute": true,
+      "sourceLine": 1546,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 410,
+      "family": "fenceLeft",
+      "x": 35,
+      "absolute": true,
+      "sourceLine": 1556,
+      "moves": [],
+      "shots": [],
+      "y": -58
+    },
+    {
+      "cycle": 430,
+      "family": "medium",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 1564,
+      "moves": [
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 4,
+          "interval": 15
+        }
+      ],
+      "y": 120
+    },
+    {
+      "cycle": 440,
+      "family": "fenceLeft",
+      "x": 35,
+      "absolute": true,
+      "sourceLine": 1574,
+      "moves": [],
+      "shots": [],
+      "y": -58
+    },
+    {
+      "cycle": 480,
+      "family": "car",
+      "x": 187,
+      "absolute": true,
+      "sourceLine": 1582,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": -70
+    },
+    {
+      "cycle": 490,
+      "family": "car",
+      "x": 335,
+      "absolute": true,
+      "sourceLine": 1592,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_ve",
+      "y": -70
+    },
+    {
+      "cycle": 500,
+      "family": "large",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 1602,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          220,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 50,
+          "type": "blue",
+          "pattern": "five",
+          "count": 3,
+          "interval": 20
+        },
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "sides",
+          "count": 3,
+          "interval": 20
+        },
+        {
+          "at": 160,
+          "type": "large",
+          "pattern": "pair",
+          "count": 6,
+          "interval": 10
+        }
+      ],
+      "gift": "poder",
+      "y": -158
+    },
+    {
+      "cycle": 520,
+      "family": "police",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 1617,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 560,
+      "family": "car",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 1627,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": 480
+    },
+    {
+      "cycle": 560,
+      "family": "car",
+      "x": 123,
+      "absolute": true,
+      "sourceLine": 1635,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": 480
+    },
+    {
+      "cycle": 590,
+      "family": "medium",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 1645,
+      "moves": [
+        [
+          0,
+          15,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          50,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 3,
+          "interval": 20
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 590,
+      "family": "medium",
+      "x": 42,
+      "absolute": true,
+      "sourceLine": 1655,
+      "moves": [
+        [
+          0,
+          15,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          50,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "pair",
+          "count": 3,
+          "interval": 20
+        }
+      ],
+      "y": -89
+    },
+    {
+      "cycle": 670,
+      "family": "helicopter",
+      "x": 24,
+      "absolute": true,
+      "sourceLine": 1667,
+      "moves": [
+        [
+          3,
+          25,
+          4,
+          10,
+          -1
+        ],
+        [
+          2,
+          5,
+          2,
+          6,
+          -1
+        ],
+        [
+          3,
+          20,
+          6,
+          0,
+          -1
+        ],
+        [
+          5,
+          10,
+          6,
+          -8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          6,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 680,
+      "family": "helicopter",
+      "x": 336,
+      "absolute": true,
+      "sourceLine": 1680,
+      "moves": [
+        [
+          3,
+          10,
+          -4,
+          10,
+          -1
+        ],
+        [
+          2,
+          5,
+          2,
+          6,
+          -1
+        ],
+        [
+          3,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          5,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -6,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 690,
+      "family": "gaviota2",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 1693,
+      "moves": [
+        [
+          0,
+          40,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 540,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 690,
+      "family": "gaviota2",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 1702,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 540,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 750,
+      "family": "small",
+      "x": -48,
+      "absolute": true,
+      "sourceLine": 1713,
+      "moves": [
+        [
+          0,
+          30,
+          6,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 4,
+        "delay": 15,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 790,
+      "family": "taxi",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 1725,
+      "moves": [
+        [
+          0,
+          130,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 800,
+      "family": "car",
+      "x": 349,
+      "absolute": true,
+      "sourceLine": 1736,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": 480
+    },
+    {
+      "cycle": 810,
+      "family": "car",
+      "x": 261,
+      "absolute": true,
+      "sourceLine": 1746,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": 480
+    },
+    {
+      "cycle": 840,
+      "family": "taxi",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 1756,
+      "moves": [
+        [
+          0,
+          100,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 860,
+      "family": "gaviota1",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 1767,
+      "moves": [
+        [
+          0,
+          35,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 6,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 890,
+      "family": "taxi",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 1782,
+      "moves": [
+        [
+          0,
+          70,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 900,
+      "family": "large",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 1793,
+      "moves": [
+        [
+          0,
+          80,
+          -2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 10
+        },
+        {
+          "at": 130,
+          "type": "large",
+          "pattern": "five",
+          "count": 3,
+          "interval": 24
+        }
+      ],
+      "y": 400
+    },
+    {
+      "cycle": 920,
+      "family": "car",
+      "x": 348,
+      "absolute": true,
+      "sourceLine": 1806,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_gr",
+      "y": 480
+    },
+    {
+      "cycle": 930,
+      "family": "car",
+      "x": 261,
+      "absolute": true,
+      "sourceLine": 1816,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_ve",
+      "y": 480
+    },
+    {
+      "cycle": 950,
+      "family": "car",
+      "x": 274,
+      "absolute": true,
+      "sourceLine": 1826,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_rj",
+      "y": -87
+    },
+    {
+      "cycle": 1000,
+      "family": "zeppelin",
+      "x": -104,
+      "absolute": true,
+      "sourceLine": 1838,
+      "moves": [
+        [
+          0,
+          80,
+          2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 10
+        },
+        {
+          "at": 130,
+          "type": "large",
+          "pattern": "five",
+          "count": 6,
+          "interval": 23
+        }
+      ],
+      "y": 400
+    },
+    {
+      "cycle": 1030,
+      "family": "car",
+      "x": 303,
+      "absolute": true,
+      "sourceLine": 1851,
+      "moves": [
+        [
+          0,
+          10,
+          4,
+          -10,
+          -1
+        ],
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          -4,
+          -10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": 480
+    },
+    {
+      "cycle": 1040,
+      "family": "car",
+      "x": 320,
+      "absolute": true,
+      "sourceLine": 1864,
+      "moves": [
+        [
+          0,
+          10,
+          4,
+          10,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          20,
+          -4,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_az",
+      "y": -87
+    },
+    {
+      "cycle": 1050,
+      "family": "car",
+      "x": 243,
+      "absolute": true,
+      "sourceLine": 1877,
+      "moves": [
+        [
+          0,
+          10,
+          -4,
+          10,
+          -1
+        ],
+        [
+          0,
+          10,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          10,
+          -4,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": -85
+    },
+    {
+      "cycle": 1060,
+      "family": "car",
+      "x": 127,
+      "absolute": true,
+      "sourceLine": 1890,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          20,
+          4,
+          10,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 1100,
+      "family": "police",
+      "x": 180,
+      "absolute": true,
+      "sourceLine": 1902,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1100,
+      "family": "police",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 1909,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1140,
+      "family": "helicopter",
+      "x": 92,
+      "absolute": true,
+      "sourceLine": 1918,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 1140,
+      "family": "helicopter",
+      "x": 264,
+      "absolute": true,
+      "sourceLine": 1928,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 1140,
+      "family": "helicopter",
+      "x": -160,
+      "absolute": true,
+      "sourceLine": 1938,
+      "moves": [
+        [
+          3,
+          20,
+          6,
+          -4,
+          -1
+        ],
+        [
+          2,
+          30,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320
+    },
+    {
+      "cycle": 1140,
+      "family": "helicopter",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 1948,
+      "moves": [
+        [
+          3,
+          20,
+          -6,
+          -4,
+          -1
+        ],
+        [
+          2,
+          30,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320
+    },
+    {
+      "cycle": 1150,
+      "family": "car",
+      "x": 183,
+      "absolute": true,
+      "sourceLine": 1982,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": -78
+    },
+    {
+      "cycle": 1150,
+      "family": "car",
+      "x": 331,
+      "absolute": true,
+      "sourceLine": 1990,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          10,
+          4,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_gr",
+      "y": -78
+    },
+    {
+      "cycle": 1180,
+      "family": "car",
+      "x": 126,
+      "absolute": true,
+      "sourceLine": 2009,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_vd",
+      "y": -87
+    },
+    {
+      "cycle": 1200,
+      "family": "car",
+      "x": 129,
+      "absolute": true,
+      "sourceLine": 2019,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_gr",
+      "y": -85
+    },
+    {
+      "cycle": 1210,
+      "family": "car",
+      "x": 374,
+      "absolute": true,
+      "sourceLine": 2029,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          10,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 1230,
+      "family": "police",
+      "x": -85,
+      "absolute": true,
+      "sourceLine": 2039,
+      "moves": [
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 136
+    },
+    {
+      "cycle": 1230,
+      "family": "police",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2047,
+      "moves": [
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 136
+    },
+    {
+      "cycle": 1250,
+      "family": "tank",
+      "x": 71,
+      "absolute": true,
+      "sourceLine": 2057,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          40,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          50,
+          4,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 60
+        }
+      ],
+      "y": -146
+    },
+    {
+      "cycle": 1250,
+      "family": "tank",
+      "x": 293,
+      "absolute": true,
+      "sourceLine": 2068,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          30,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          30,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          50,
+          -4,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 60
+        }
+      ],
+      "y": -146
+    },
+    {
+      "cycle": 1260,
+      "family": "small",
+      "x": -48,
+      "absolute": true,
+      "sourceLine": 2082,
+      "moves": [
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 4,
+        "delay": 15,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1280,
+      "family": "small",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2093,
+      "moves": [
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 4,
+        "delay": 15,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1320,
+      "family": "medium",
+      "x": -88,
+      "absolute": true,
+      "sourceLine": 2104,
+      "moves": [
+        [
+          0,
+          1,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          20,
+          6,
+          0,
+          -1
+        ],
+        [
+          2,
+          50,
+          6,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "three",
+          "count": 3,
+          "interval": 30
+        }
+      ],
+      "y": 136
+    },
+    {
+      "cycle": 1320,
+      "family": "medium",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2115,
+      "moves": [
+        [
+          0,
+          1,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          20,
+          -6,
+          0,
+          -1
+        ],
+        [
+          2,
+          50,
+          -6,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "three",
+          "count": 3,
+          "interval": 30
+        }
+      ],
+      "y": 136
+    },
+    {
+      "cycle": 1390,
+      "family": "zeppelin",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 2128,
+      "moves": [
+        [
+          0,
+          40,
+          0,
+          4,
+          -1
+        ],
+        [
+          2,
+          100,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 70,
+          "type": "small",
+          "pattern": "pair",
+          "count": 2,
+          "interval": 30
+        },
+        {
+          "at": 120,
+          "type": "rotating",
+          "pattern": "circle",
+          "count": 2,
+          "interval": 40
+        }
+      ],
+      "y": -137
+    },
+    {
+      "cycle": 1400,
+      "family": "car",
+      "x": 257,
+      "absolute": true,
+      "sourceLine": 2141,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": -78
+    },
+    {
+      "cycle": 1430,
+      "family": "car",
+      "x": 274,
+      "absolute": true,
+      "sourceLine": 2151,
+      "moves": [
+        [
+          0,
+          10,
+          -6,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_vd",
+      "y": -87
+    },
+    {
+      "cycle": 1430,
+      "family": "car",
+      "x": 349,
+      "absolute": true,
+      "sourceLine": 2160,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 1450,
+      "family": "car",
+      "x": 126,
+      "absolute": true,
+      "sourceLine": 2170,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_vd",
+      "y": 480
+    },
+    {
+      "cycle": 1480,
+      "family": "gavibot",
+      "x": 54,
+      "absolute": true,
+      "sourceLine": 2180,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 15
+        },
+        {
+          "at": 80,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1480,
+      "family": "gavibot",
+      "x": 366,
+      "absolute": true,
+      "sourceLine": 2191,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 40,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 15
+        },
+        {
+          "at": 80,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 2,
+          "interval": 20
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 1550,
+      "family": "barrier",
+      "x": 84,
+      "absolute": true,
+      "sourceLine": 2204,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1550,
+      "family": "barrierLeft",
+      "x": 255,
+      "absolute": true,
+      "sourceLine": 2210,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1550,
+      "family": "barrier",
+      "x": 312,
+      "absolute": true,
+      "sourceLine": 2216,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1560,
+      "family": "barrierLeft",
+      "x": 141,
+      "absolute": true,
+      "sourceLine": 2224,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1560,
+      "family": "barrier",
+      "x": 198,
+      "absolute": true,
+      "sourceLine": 2230,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1560,
+      "family": "barrierLeft",
+      "x": 369,
+      "absolute": true,
+      "sourceLine": 2236,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 1620,
+      "family": "police",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 2244,
+      "moves": [
+        [
+          0,
+          10,
+          8,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1620,
+      "family": "police",
+      "x": 300,
+      "absolute": true,
+      "sourceLine": 2252,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1640,
+      "family": "police",
+      "x": 186,
+      "absolute": true,
+      "sourceLine": 2262,
+      "moves": [
+        [
+          0,
+          10,
+          -8,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1640,
+      "family": "police",
+      "x": 357,
+      "absolute": true,
+      "sourceLine": 2270,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 1690,
+      "family": "tank",
+      "x": 71,
+      "absolute": true,
+      "sourceLine": 2280,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 50
+        }
+      ],
+      "y": -146
+    },
+    {
+      "cycle": 1690,
+      "family": "tank",
+      "x": 293,
+      "absolute": true,
+      "sourceLine": 2289,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 50
+        }
+      ],
+      "y": -146
+    },
+    {
+      "cycle": 1720,
+      "family": "gaviota2",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2300,
+      "moves": [
+        [
+          0,
+          15,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          35,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 320,
+      "followers": {
+        "count": 2,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1720,
+      "family": "gaviota2",
+      "x": -60,
+      "absolute": true,
+      "sourceLine": 2310,
+      "moves": [
+        [
+          0,
+          15,
+          6,
+          8,
+          -1
+        ],
+        [
+          0,
+          35,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 80,
+      "followers": {
+        "count": 2,
+        "delay": 10,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 1770,
+      "family": "large",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 2322,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          220,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 50,
+          "type": "large",
+          "pattern": "three",
+          "count": 3,
+          "interval": 20
+        },
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "sides",
+          "count": 3,
+          "interval": 20
+        },
+        {
+          "at": 160,
+          "type": "large",
+          "pattern": "pair",
+          "count": 6,
+          "interval": 40
+        }
+      ],
+      "gift": "disparo",
+      "y": -158
+    },
+    {
+      "cycle": 1790,
+      "family": "fenceLeft",
+      "x": 425,
+      "absolute": true,
+      "sourceLine": 2337,
+      "moves": [],
+      "shots": [],
+      "y": -58
+    },
+    {
+      "cycle": 1820,
+      "family": "fenceLeft",
+      "x": 425,
+      "absolute": true,
+      "sourceLine": 2345,
+      "moves": [],
+      "shots": [],
+      "y": -58
+    },
+    {
+      "cycle": 1920,
+      "family": "car",
+      "x": 127,
+      "absolute": true,
+      "sourceLine": 2353,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 1920,
+      "family": "car",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 2361,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": -85
+    },
+    {
+      "cycle": 1940,
+      "family": "car",
+      "x": 126,
+      "absolute": true,
+      "sourceLine": 2378,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_az",
+      "y": 480
+    },
+    {
+      "cycle": 1980,
+      "family": "taxi",
+      "x": 357,
+      "absolute": true,
+      "sourceLine": 2390,
+      "moves": [
+        [
+          0,
+          80,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          -6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 2000,
+      "family": "police",
+      "x": -85,
+      "absolute": true,
+      "sourceLine": 2401,
+      "moves": [
+        [
+          0,
+          30,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          25,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 170
+    },
+    {
+      "cycle": 2030,
+      "family": "car",
+      "x": 123,
+      "absolute": true,
+      "sourceLine": 2416,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 2030,
+      "family": "car",
+      "x": 257,
+      "absolute": true,
+      "sourceLine": 2424,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_rj",
+      "y": -78
+    },
+    {
+      "cycle": 2050,
+      "family": "helicopter",
+      "x": 68,
+      "absolute": true,
+      "sourceLine": 2434,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2050,
+      "family": "helicopter",
+      "x": 290,
+      "absolute": true,
+      "sourceLine": 2444,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2060,
+      "family": "car",
+      "x": 106,
+      "absolute": true,
+      "sourceLine": 2456,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_gr",
+      "y": 480
+    },
+    {
+      "cycle": 2070,
+      "family": "medium",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2468,
+      "moves": [
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 35
+        }
+      ],
+      "y": 120
+    },
+    {
+      "cycle": 2100,
+      "family": "helicopter",
+      "x": 92,
+      "absolute": true,
+      "sourceLine": 2481,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2100,
+      "family": "helicopter",
+      "x": 264,
+      "absolute": true,
+      "sourceLine": 2491,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2110,
+      "family": "car",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 2503,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_az",
+      "y": 480
+    },
+    {
+      "cycle": 2120,
+      "family": "small",
+      "x": 104,
+      "absolute": true,
+      "sourceLine": 2515,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          30,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 6,
+        "delay": 10,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2150,
+      "family": "tank",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2539,
+      "moves": [
+        [
+          0,
+          15,
+          -6,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 50
+        }
+      ],
+      "y": 131
+    },
+    {
+      "cycle": 2160,
+      "family": "car",
+      "x": 275,
+      "absolute": true,
+      "sourceLine": 2550,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": 480
+    },
+    {
+      "cycle": 2190,
+      "family": "car",
+      "x": 123,
+      "absolute": true,
+      "sourceLine": 2562,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 2190,
+      "family": "car",
+      "x": 257,
+      "absolute": true,
+      "sourceLine": 2570,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_gr",
+      "y": -78
+    },
+    {
+      "cycle": 2220,
+      "family": "car",
+      "x": 180,
+      "absolute": true,
+      "sourceLine": 2584,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_az",
+      "y": -85
+    },
+    {
+      "cycle": 2220,
+      "family": "car",
+      "x": 274,
+      "absolute": true,
+      "sourceLine": 2592,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_vd",
+      "y": -87
+    },
+    {
+      "cycle": 2250,
+      "family": "zeppelin",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 2603,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          20,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          40,
+          -4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          15,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          70,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 80,
+          "type": "large",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 30
+        },
+        {
+          "at": 240,
+          "type": "small",
+          "pattern": "three",
+          "count": 4,
+          "interval": 40
+        },
+        {
+          "at": 250,
+          "type": "large",
+          "pattern": "five",
+          "count": 3,
+          "interval": 30
+        }
+      ],
+      "y": -167
+    },
+    {
+      "cycle": 2260,
+      "family": "car",
+      "x": 257,
+      "absolute": true,
+      "sourceLine": 2623,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": -78
+    },
+    {
+      "cycle": 2270,
+      "family": "helicopter",
+      "x": 68,
+      "absolute": true,
+      "sourceLine": 2633,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          10,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2270,
+      "family": "helicopter",
+      "x": 290,
+      "absolute": true,
+      "sourceLine": 2643,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          10,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2300,
+      "family": "car",
+      "x": 187,
+      "absolute": true,
+      "sourceLine": 2655,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": -70
+    },
+    {
+      "cycle": 2300,
+      "family": "car",
+      "x": 271,
+      "absolute": true,
+      "sourceLine": 2663,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 2330,
+      "family": "car",
+      "x": 197,
+      "absolute": true,
+      "sourceLine": 2674,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": 480
+    },
+    {
+      "cycle": 2350,
+      "family": "car",
+      "x": 187,
+      "absolute": true,
+      "sourceLine": 2686,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_ve",
+      "y": -70
+    },
+    {
+      "cycle": 2350,
+      "family": "car",
+      "x": 254,
+      "absolute": true,
+      "sourceLine": 2694,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_az",
+      "y": -85
+    },
+    {
+      "cycle": 2480,
+      "family": "float",
+      "x": 250,
+      "absolute": true,
+      "sourceLine": 2708,
+      "moves": [],
+      "shots": [
+        {
+          "at": 30,
+          "type": "rotating",
+          "pattern": "five",
+          "count": 5,
+          "interval": 40
+        },
+        {
+          "at": 50,
+          "type": "rotating",
+          "pattern": "aim",
+          "count": 5,
+          "interval": 40
+        }
+      ],
+      "float": "c_barco",
+      "y": -312
+    },
+    {
+      "cycle": 2540,
+      "family": "car",
+      "x": 113,
+      "absolute": true,
+      "sourceLine": 2719,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": -70
+    },
+    {
+      "cycle": 2560,
+      "family": "car",
+      "x": 201,
+      "absolute": true,
+      "sourceLine": 2729,
+      "moves": [
+        [
+          0,
+          10,
+          -6,
+          4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 2560,
+      "family": "small",
+      "x": -48,
+      "absolute": true,
+      "sourceLine": 2738,
+      "moves": [
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 240,
+      "followers": {
+        "count": 4,
+        "delay": 15,
+        "family": "small",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2650,
+      "family": "float",
+      "x": 252,
+      "absolute": true,
+      "sourceLine": 2749,
+      "moves": [],
+      "shots": [
+        {
+          "at": 30,
+          "type": "large",
+          "pattern": "pair",
+          "count": 8,
+          "interval": 40
+        },
+        {
+          "at": 50,
+          "type": "small",
+          "pattern": "diagonal",
+          "count": 8,
+          "interval": 40
+        }
+      ],
+      "float": "c_demonio",
+      "y": -265
+    },
+    {
+      "cycle": 2650,
+      "family": "helicopter",
+      "x": 34,
+      "absolute": true,
+      "sourceLine": 2758,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 2670,
+      "family": "helicopter",
+      "x": -160,
+      "absolute": true,
+      "sourceLine": 2770,
+      "moves": [
+        [
+          3,
+          20,
+          6,
+          0,
+          -1
+        ],
+        [
+          2,
+          30,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          3,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 208
+    },
+    {
+      "cycle": 2680,
+      "family": "police",
+      "x": -85,
+      "absolute": true,
+      "sourceLine": 2782,
+      "moves": [
+        [
+          0,
+          20,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 230
+    },
+    {
+      "cycle": 2690,
+      "family": "small",
+      "x": 260,
+      "absolute": true,
+      "sourceLine": 2792,
+      "moves": [
+        [
+          1,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -48,
+      "followers": {
+        "count": 2,
+        "delay": 15,
+        "family": "small",
+        "dx": 100,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2820,
+      "family": "float",
+      "x": 122,
+      "absolute": true,
+      "sourceLine": 2802,
+      "moves": [],
+      "shots": [
+        {
+          "at": 50,
+          "type": "large",
+          "pattern": "aim",
+          "count": 5,
+          "interval": 40
+        },
+        {
+          "at": 30,
+          "type": "rotating",
+          "pattern": "sides",
+          "count": 8,
+          "interval": 40
+        }
+      ],
+      "float": "c_mar",
+      "gift": "vida",
+      "y": -265
+    },
+    {
+      "cycle": 2900,
+      "family": "gaviota2",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 2814,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 2950,
+      "family": "car",
+      "x": 328,
+      "absolute": true,
+      "sourceLine": 2825,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": -85
+    },
+    {
+      "cycle": 2960,
+      "family": "gaviota2",
+      "x": 74,
+      "absolute": true,
+      "sourceLine": 2835,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3000,
+      "family": "float",
+      "x": 247,
+      "absolute": true,
+      "sourceLine": 2853,
+      "moves": [],
+      "shots": [
+        {
+          "at": 30,
+          "type": "rotating",
+          "pattern": "diagonal",
+          "count": 8,
+          "interval": 30
+        },
+        {
+          "at": 50,
+          "type": "small",
+          "pattern": "aim",
+          "count": 8,
+          "interval": 80
+        }
+      ],
+      "float": "c_castillo",
+      "y": -265
+    },
+    {
+      "cycle": 3070,
+      "family": "car",
+      "x": 126,
+      "absolute": true,
+      "sourceLine": 2864,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "ckadett_rj",
+      "y": -87
+    },
+    {
+      "cycle": 3090,
+      "family": "car",
+      "x": 197,
+      "absolute": true,
+      "sourceLine": 2874,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 3100,
+      "family": "helicopter",
+      "x": 34,
+      "absolute": true,
+      "sourceLine": 2884,
+      "moves": [
+        [
+          3,
+          20,
+          0,
+          8,
+          -1
+        ],
+        [
+          2,
+          20,
+          2,
+          6,
+          -1
+        ],
+        [
+          5,
+          10,
+          -8,
+          0,
+          -1
+        ],
+        [
+          3,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -128
+    },
+    {
+      "cycle": 3250,
+      "family": "barrier",
+      "x": 84,
+      "absolute": true,
+      "sourceLine": 2899,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3250,
+      "family": "barrierLeft",
+      "x": 255,
+      "absolute": true,
+      "sourceLine": 2905,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3250,
+      "family": "barrier",
+      "x": 312,
+      "absolute": true,
+      "sourceLine": 2911,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3260,
+      "family": "barrierLeft",
+      "x": 141,
+      "absolute": true,
+      "sourceLine": 2919,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3260,
+      "family": "barrier",
+      "x": 198,
+      "absolute": true,
+      "sourceLine": 2925,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3260,
+      "family": "barrierLeft",
+      "x": 369,
+      "absolute": true,
+      "sourceLine": 2931,
+      "moves": [],
+      "shots": [],
+      "y": -51
+    },
+    {
+      "cycle": 3330,
+      "family": "police",
+      "x": 15,
+      "absolute": true,
+      "sourceLine": 2939,
+      "moves": [
+        [
+          0,
+          10,
+          8,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 3350,
+      "family": "police",
+      "x": 357,
+      "absolute": true,
+      "sourceLine": 2949,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 3370,
+      "family": "gaviota2",
+      "x": 386,
+      "absolute": true,
+      "sourceLine": 2959,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -8,
+          0,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -60,
+      "followers": {
+        "count": 4,
+        "delay": 12,
+        "family": "gaviota2",
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 3400,
+      "family": "zeppelin",
+      "x": 206,
+      "absolute": true,
+      "sourceLine": 2970,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          30,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          60,
+          -4,
+          0,
+          -1
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          25,
+          4,
+          0,
+          -1
+        ],
+        [
+          2,
+          180,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 80,
+          "type": "large",
+          "pattern": "pair",
+          "count": 5,
+          "interval": 30
+        },
+        {
+          "at": 240,
+          "type": "small",
+          "pattern": "closedThree",
+          "count": 4,
+          "interval": 40
+        },
+        {
+          "at": 250,
+          "type": "large",
+          "pattern": "three",
+          "count": 3,
+          "interval": 30
+        }
+      ],
+      "y": -167
+    },
+    {
+      "cycle": 3450,
+      "family": "tank",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 2990,
+      "moves": [
+        [
+          0,
+          15,
+          -6,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 60
+        }
+      ],
+      "y": -5
+    },
+    {
+      "cycle": 3480,
+      "family": "tank",
+      "x": -154,
+      "absolute": true,
+      "sourceLine": 3001,
+      "moves": [
+        [
+          0,
+          15,
+          6,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "turret",
+          "count": 5,
+          "interval": 60
+        }
+      ],
+      "y": -5
+    },
+    {
+      "cycle": 3500,
+      "family": "car",
+      "x": 257,
+      "absolute": true,
+      "sourceLine": 3012,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": -78
+    },
+    {
+      "cycle": 3550,
+      "family": "car",
+      "x": 187,
+      "absolute": true,
+      "sourceLine": 3022,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": -70
+    },
+    {
+      "cycle": 3550,
+      "family": "car",
+      "x": 271,
+      "absolute": true,
+      "sourceLine": 3030,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": -130
+    },
+    {
+      "cycle": 3600,
+      "family": "car",
+      "x": 197,
+      "absolute": true,
+      "sourceLine": 3048,
+      "moves": [
+        [
+          0,
+          10,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": 480
+    },
+    {
+      "cycle": 3630,
+      "family": "car",
+      "x": 187,
+      "absolute": true,
+      "sourceLine": 3060,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_ve",
+      "y": -70
+    },
+    {
+      "cycle": 3630,
+      "family": "car",
+      "x": 254,
+      "absolute": true,
+      "sourceLine": 3068,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_az",
+      "y": -85
+    },
+    {
+      "cycle": 3700,
+      "family": "taxi",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 3079,
+      "moves": [
+        [
+          0,
+          20,
+          -8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": 162
+    },
+    {
+      "cycle": 3740,
+      "family": "car",
+      "x": 109,
+      "absolute": true,
+      "sourceLine": 3089,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cmercedes_cr",
+      "y": -78
+    },
+    {
+      "cycle": 3740,
+      "family": "car",
+      "x": 201,
+      "absolute": true,
+      "sourceLine": 3097,
+      "moves": [
+        [
+          0,
+          15,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 3750,
+      "family": "gavibot",
+      "x": 54,
+      "absolute": true,
+      "sourceLine": 3108,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 50,
+          "type": "small",
+          "pattern": "pair",
+          "count": 2,
+          "interval": 30
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 3750,
+      "family": "gavibot",
+      "x": 366,
+      "absolute": true,
+      "sourceLine": 3118,
+      "moves": [
+        [
+          0,
+          20,
+          0,
+          6,
+          -1
+        ],
+        [
+          2,
+          80,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          6,
+          6,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 80,
+          "type": "small",
+          "pattern": "pair",
+          "count": 2,
+          "interval": 30
+        }
+      ],
+      "y": -100
+    },
+    {
+      "cycle": 3800,
+      "family": "car",
+      "x": 345,
+      "absolute": true,
+      "sourceLine": 3130,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cautobus_",
+      "y": 480
+    },
+    {
+      "cycle": 3850,
+      "family": "car",
+      "x": 106,
+      "absolute": true,
+      "sourceLine": 3140,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_vi",
+      "y": 480
+    },
+    {
+      "cycle": 3900,
+      "family": "car",
+      "x": 201,
+      "absolute": true,
+      "sourceLine": 3150,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          10,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          4,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": -78
+    },
+    {
+      "cycle": 3900,
+      "family": "car",
+      "x": 364,
+      "absolute": true,
+      "sourceLine": 3160,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -4,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": 480
+    },
+    {
+      "cycle": 3950,
+      "family": "medium",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 3171,
+      "moves": [
+        [
+          0,
+          -1,
+          -6,
+          0,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 20,
+          "type": "small",
+          "pattern": "aim",
+          "count": 2,
+          "interval": 45
+        }
+      ],
+      "y": 120
+    },
+    {
+      "cycle": 3980,
+      "family": "car",
+      "x": 335,
+      "absolute": true,
+      "sourceLine": 3181,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_ve",
+      "y": 480
+    },
+    {
+      "cycle": 3990,
+      "family": "car",
+      "x": 201,
+      "absolute": true,
+      "sourceLine": 3191,
+      "moves": [
+        [
+          0,
+          10,
+          -6,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": 480
+    },
+    {
+      "cycle": 4000,
+      "family": "taxi",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 3202,
+      "moves": [
+        [
+          0,
+          130,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 4030,
+      "family": "car",
+      "x": 349,
+      "absolute": true,
+      "sourceLine": 3213,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cseicento_gr",
+      "y": 480
+    },
+    {
+      "cycle": 4060,
+      "family": "car",
+      "x": 261,
+      "absolute": true,
+      "sourceLine": 3223,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          -6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "csmart_am",
+      "y": 480
+    },
+    {
+      "cycle": 4090,
+      "family": "taxi",
+      "x": 72,
+      "absolute": true,
+      "sourceLine": 3233,
+      "moves": [
+        [
+          0,
+          100,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          10,
+          6,
+          6,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 4100,
+      "family": "large",
+      "x": 520,
+      "absolute": true,
+      "sourceLine": 3244,
+      "moves": [
+        [
+          0,
+          80,
+          -2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 100,
+          "type": "small",
+          "pattern": "circle",
+          "count": 2,
+          "interval": 20
+        },
+        {
+          "at": 160,
+          "type": "large",
+          "pattern": "pair",
+          "count": 3,
+          "interval": 40
+        }
+      ],
+      "y": 400
+    },
+    {
+      "cycle": 4100,
+      "family": "zeppelin",
+      "x": -104,
+      "absolute": true,
+      "sourceLine": 3255,
+      "moves": [
+        [
+          0,
+          80,
+          2,
+          -4,
+          -1
+        ],
+        [
+          2,
+          100,
+          1,
+          1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -4,
+          -1
+        ]
+      ],
+      "shots": [
+        {
+          "at": 120,
+          "type": "small",
+          "pattern": "pair",
+          "count": 2,
+          "interval": 20
+        },
+        {
+          "at": 160,
+          "type": "blue",
+          "pattern": "closedThree",
+          "count": 6,
+          "interval": 23
+        }
+      ],
+      "y": 400
+    },
+    {
+      "cycle": 4130,
+      "family": "police",
+      "x": 180,
+      "absolute": true,
+      "sourceLine": 3268,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          10,
+          8,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 4150,
+      "family": "gaviota1",
+      "x": 118,
+      "absolute": true,
+      "sourceLine": 3279,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": 80,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4150,
+      "family": "gaviota1",
+      "x": 340,
+      "absolute": true,
+      "sourceLine": 3287,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          6,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -58,
+      "followers": {
+        "count": 1,
+        "delay": 10,
+        "family": "gaviota1",
+        "dx": -80,
+        "dy": 0
+      }
+    },
+    {
+      "cycle": 4200,
+      "family": "police",
+      "x": 254,
+      "absolute": true,
+      "sourceLine": 3297,
+      "moves": [
+        [
+          0,
+          -1,
+          0,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "y": -85
+    },
+    {
+      "cycle": 4250,
+      "family": "car",
+      "x": 180,
+      "absolute": true,
+      "sourceLine": 3306,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          10,
+          4,
+          8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          4,
+          8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_az",
+      "y": -85
+    },
+    {
+      "cycle": 4250,
+      "family": "car",
+      "x": 357,
+      "absolute": true,
+      "sourceLine": 3316,
+      "moves": [
+        [
+          0,
+          30,
+          0,
+          -8,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -4,
+          -8,
+          -1
+        ]
+      ],
+      "shots": [],
+      "car": "cpicasso_gr",
+      "y": 480
+    }
+  ],
+  "pickups": [
+    {
+      "cycle": 1160,
+      "type": "poder"
+    },
+    {
+      "cycle": 1930,
+      "type": "poder"
+    },
+    {
+      "cycle": 2140,
+      "type": "disparo"
+    },
+    {
+      "cycle": 2970,
+      "type": "poder"
+    },
+    {
+      "cycle": 3560,
+      "type": "disparo"
+    }
+  ]
+}

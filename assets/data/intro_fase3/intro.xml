@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<control>
+		<text-stop align="center" valign="center" text="Pulse una tecla para continuar" separate-line="10" text-align="right" x="320" y="450" font-size="17" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+		<stop cycle="1740" />
+		<end cycle="1750" />
+	</control>
+	<objects>
+		<object type="sound">
+			<data volumen="100" file="espectadores.tsog" />
+			<sounds>
+				<sound cycle-in="0" time-fadein="1000" cycle-out="350" time-fadeout="1200" loops="0" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="palanca.tsog" />
+			<sounds>
+				<sound cycle-in="330" loops="0" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="zumbido.tsog" />
+			<sounds>
+				<sound cycle-in="365" cycle-out="730" time-fadeout="1200" loops="-1" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="hipnosis.tsog" />
+			<sounds>
+				<sound cycle-in="490" cycle-out="720" time-fadeout="1200" loops="-1" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="60" file="musica.tsog" />
+			<sounds>
+				<sound cycle-in="700" time-fadein="2000" cycle-out="1730" time-fadeout="1200" loops="0" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="70" file="trafico.tsog" />
+			<sounds>
+				<sound cycle-in="1080" time-fadein="1200" cycle-out="1310" time-fadeout="1500" loops="0" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="piruli.tsog" />
+			<sounds>
+				<sound cycle-in="350" cycle-out="710" time-fadeout="1500" loops="-1" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="70" file="truenos.tsog" />
+			<sounds>
+				<sound cycle-in="1350" cycle-out="1730" time-fadeout="1500" loops="0" />					
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="200" file="risa.tsog" />
+			<sounds>
+				<sound cycle-in="1450" loops="0"/>					
+			</sounds>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="familia.timp" />
+			<motion>
+				<cycle begin="10" end="30" />
+				<coord-begin x="430" y="300" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="390" />
+		</object>
+		<object type="animation">
+			<data align="center" valign="center" cycles-between-frames="4" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<stop-animation cycle="370" frame="1" />
+			<frames>
+				<frame file="familia2.timp" image-with-alpha="true" />
+				<frame file="vacio.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="350" end="390" />
+				<coord-begin x="430" y="300" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="500" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="txt_familia.timp" />
+			<motion>
+				<cycle begin="40" end="60" />
+				<coord-begin x="300" y="450" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="500" />
+		</object>
+		<object type="image">
+			<data file="mano_arriba.timp" />
+			<motion>
+				<cycle begin="180" end="200" />
+				<coord-begin x="10" y="10" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="370" />
+		</object>
+		<object type="image">
+			<data file="mano_abajo.timp" />
+			<motion>
+				<cycle begin="350" end="370" />
+				<coord-begin x="10" y="10" />
+			</motion>
+			<disappear cycle="500" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="plaff.timp" image-with-alpha="true" bgR="90" bgG="90" bgB="90" />
+			<motion>
+				<cycle begin="350" end="410" />
+				<coord-begin x="180" y="110" />
+				<fade-out cycles="30"/>
+			</motion>
+			<disappear cycle="480" />
+		</object>
+		<object type="image">
+			<data file="txt_llamando.timp" />
+			<motion>
+				<cycle begin="220" end="240" />
+				<coord-begin x="130" y="15" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="500" />
+		</object>
+		<object type="image">
+			<data file="txt_piruli.timp" />
+			<motion>
+				<cycle begin="350" end="370" />
+				<coord-begin x="130" y="60" />
+				<fade-in cycles="20"/>
+			</motion>
+			<disappear cycle="500" />
+		</object>
+		<object type="image">
+			<data file="desaturado.timp" />
+			<motion>
+				<cycle begin="460" end="1100" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="20"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="llamando.timp" />
+			<motion>
+				<cycle begin="180" end="750" />
+				<coord-begin x="10" y="210" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="40"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="animation">
+			<data cycles-between-frames="9" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<frames>
+				<frame file="llamada3.timp" image-with-alpha="true" />
+				<frame file="llamada0.timp" image-with-alpha="true" />
+				<frame file="llamada1.timp" image-with-alpha="true" />
+				<frame file="llamada2.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="350" end="370" />
+				<coord-begin x="24" y="250" />
+			</motion>
+			<disappear cycle="750" />
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="espiral.timp" image-with-alpha="true" bgR="50" bgG="50" bgB="50" />
+			<motion>
+				<cycle begin="500" end="750" />
+				<coord-begin x="390" y="250" />
+				<fade-in cycles="200" />
+				<fade-out cycles="50" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" image-with-alpha="true" file="cara_gordo.timp" />
+			<motion>
+				<cycle begin="500" end="750" />
+				<coord-begin x="240" y="160" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="40"/>
+				<zoom-in cycles="250" factor-begin="0.4" factor-end="1" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" image-with-alpha="true" file="cara_nino.timp" />
+			<motion>
+				<cycle begin="520" end="750" />
+				<coord-begin x="460" y="140" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="40"/>
+				<zoom-in cycles="250" factor-begin="0.4" factor-end="1" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" image-with-alpha="true" file="cara_vieja.timp" />
+			<motion>
+				<cycle begin="540" end="750" />
+				<coord-begin x="280" y="330" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="40"/>
+				<zoom-in cycles="250" factor-begin="0.4" factor-end="1" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" image-with-alpha="true" file="cara_viejo.timp" />
+			<motion>
+				<cycle begin="560" end="750" />
+				<coord-begin x="490" y="310" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="40"/>
+				<zoom-in cycles="250" factor-begin="0.4" factor-end="1" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="txt_hipnosis.timp" />
+			<motion>
+				<cycle begin="500" end="1100" />
+				<coord-begin x="10" y="10" />
+				<fade-in cycles="40"/>
+				<fade-out cycles="20"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="top" image-with-alpha="true" file="levantandose.timp" />
+			<motion>
+				<cycle begin="750" end="1100" />
+				<coord-begin x="430" y="50" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="top" image-with-alpha="true" file="vagar.timp" />
+			<motion>
+				<cycle begin="830" end="1100" />
+				<coord-begin x="170" y="70" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="top" image-with-alpha="true" file="coches.timp" />
+			<motion>
+				<cycle begin="910" end="1100" />
+				<coord-begin x="280" y="260" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" image-with-alpha="true" file="avenida.timp" />
+			<motion>
+				<cycle begin="1100" end="1350" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="20"/>
+				<fade-out cycles="20"/>
+			</motion>
+		</object>
+		<object type="image">
+			<data file="final_fondo.timp" />
+			<motion>
+				<cycle begin="1350" end="1370" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20"/>
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="bottom" image-with-alpha="true" file="final_bizcone.timp" />
+			<motion>
+				<cycle begin="1380" end="1700" />
+				<coord-begin x="320" y="800" />
+				<coord-end x="320" y="390" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="final_mar.timp" />
+			<motion>
+				<cycle begin="1350" end="1370" />
+				<coord-begin x="0" y="383" />
+				<fade-in cycles="20"/>
+			</motion>
+		</object>
+		<object type="image">
+			<data valign="bottom" image-with-alpha="true" file="final_edificios_delante.timp" />
+			<motion>
+				<cycle begin="1350" end="2100" />
+				<coord-begin x="0" y="410" />
+				<coord-end x="-200" y="410" />
+				
+			</motion>
+		</object>
+		<object type="animation">
+			<data cycles-between-frames="29" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<frames>
+				<frame file="final_rayo0.timp" image-with-alpha="true" />
+				<frame file="vacio.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="1350" end="1370" />
+				<coord-begin x="500" y="250" />
+			</motion>
+		</object>
+		<object type="animation">
+			<data cycles-between-frames="25" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<frames>
+				<frame file="final_rayo1.timp" image-with-alpha="true" />
+				<frame file="vacio.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="1360" end="1370" />
+				<coord-begin x="480" y="60" />
+			</motion>
+		</object>
+		<object type="animation">
+			<data cycles-between-frames="34" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<frames>
+				<frame file="final_rayo2.timp" image-with-alpha="true" />
+				<frame file="vacio.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="1370" end="1390" />
+				<coord-begin x="40" y="70" />
+			</motion>
+		</object>
+		<object type="animation">
+			<data cycles-between-frames="45" rotation-circle="false" bgR="0" bgG="0" bgB="0" />
+			<frames>
+				<frame file="final_rayo3.timp" image-with-alpha="true" />
+				<frame file="vacio.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="1380" end="1390" />
+				<coord-begin x="220" y="30" />
+			</motion>
+		</object>
+		<object type="image" name="texto_final">
+			<data file="txt_final.timp" />
+			<motion>
+				<cycle begin="1380" end="1400" />
+				<coord-begin x="10" y="10" />
+				<fade-in cycles="20"/>
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="fondo_pulse.timp" />
+			<motion>
+				<cycle begin="1730" end="1750" />
+				<coord-begin x="320" y="450" />
+				<fade-in cycles="20"/>
+			</motion>
+		</object>
+	</objects>
+</anim>

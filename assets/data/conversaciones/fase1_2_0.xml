@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anim>
+	<loading>
+		<load file="$conf_ruta$/img.bmp" />
+	</loading>
+	<control>
+		<text-stop align="center" valign="center" text="Pulse una tecla para continuar" separate-line="10" text-align="right" x="260" y="400" font-size="17" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+		<!--<stop cycle="60" />-->
+		<stop cycle="110" />
+		<stop cycle="160" />
+		<!--<stop cycle="210" />-->
+		<stop cycle="260" />
+		<!--<stop cycle="310" />-->
+		<stop cycle="360" />
+		<end cycle="380" />
+		<key-quit value="ESCAPE" />
+	</control>
+	<objects>
+		<object type="background">
+			<background cycle="0" red="0" green="0" blue="0" file="$conf_ruta$/img.bmp" position="top-left" image-with-alpha="false" />
+		</object>
+		<object type="sound">
+			<data volumen="100" file="vozpaco1.tsog" />
+			<sounds>
+				<sound cycle-in="5" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="voztirititran1.tsog" />
+			<sounds>
+				<sound cycle-in="70" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="vozpaco2.tsog" />
+			<sounds>
+				<sound cycle-in="111" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="voztirititran2.tsog" />
+			<sounds>
+				<sound cycle-in="161" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="vozpaco3.tsog" />
+			<sounds>
+				<sound cycle-in="211" loops="0" />
+			</sounds>
+		</object>
+		<object type="sound">
+			<data volumen="100" file="voztirititran3.tsog" />
+			<sounds>
+				<sound cycle-in="261" loops="0" />
+			</sounds>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="barra_pulsar.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="0" end="380" />
+				<coord-begin x="260" y="400" />
+				<fade-in cycles="20" opacity-begin="0" opacity-end="100" />
+				<fade-out cycles="20" opacity-begin="100" opacity-end="0" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="barra_ar.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="0" end="380" />
+				<coord-begin x="0" y="50" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="left" valign="top" file="barra_ab.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="80" end="380" />
+				<coord-begin x="0" y="200" />
+				<coord-end x="0" y="200" />
+			</motion>
+		</object>
+		<object type="animation" name="tirititran">
+			<data align="right" cycles-between-frames="3" rotation-circle="true" bgR="50" bgG="50" bgB="50" />
+			<stop-animation cycle="109" frame="1" />
+			<play-animation cycle="159"  />
+			<stop-animation cycle="209" frame="1" />
+			<play-animation cycle="259"  />
+			<stop-animation cycle="309" frame="1" />
+			<!--<play-animation cycle="310" />
+			<stop-animation cycle="359" frame="1" />-->
+			<frames>
+				<frame file="tirititran0.timp" image-with-alpha="true" />
+				<frame file="tirititran1.timp" image-with-alpha="true" />
+				<frame file="tirititran2.timp" image-with-alpha="true" />
+				<frame file="tirititran3.timp" image-with-alpha="true" />
+				<frame file="tirititran4.timp" image-with-alpha="true" />
+				<frame file="tirititran5.timp" image-with-alpha="true" />
+				<frame file="tirititran6.timp" image-with-alpha="true" />
+				<frame file="tirititran7.timp" image-with-alpha="true" />
+				<frame file="tirititran8.timp" image-with-alpha="true" />
+				<frame file="tirititran9.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="80" end="380" />
+				<coord-begin x="520" y="198" />
+				<fade-in cycles="10" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<object type="animation" name="paco">
+			<data valign="top" cycles-between-frames="3" rotation-circle="true" bgR="50" bgG="50" bgB="50" />
+			<stop-animation cycle="59" frame="5" />
+			<play-animation cycle="111" />
+			<stop-animation cycle="159" frame="5" />
+			<play-animation cycle="211" />
+			<stop-animation cycle="259" frame="5" />
+			<frames>
+				<frame file="paco0.timp" image-with-alpha="true" />
+				<frame file="paco1.timp" image-with-alpha="true" />
+				<frame file="paco2.timp" image-with-alpha="true" />
+				<frame file="paco3.timp" image-with-alpha="true" />
+				<frame file="paco4.timp" image-with-alpha="true" />
+				<frame file="paco5.timp" image-with-alpha="true" />
+				<frame file="paco6.timp" image-with-alpha="true" />
+				<frame file="paco7.timp" image-with-alpha="true" />
+				<frame file="paco8.timp" image-with-alpha="true" />
+				<frame file="paco9.timp" image-with-alpha="true" />
+			</frames>
+			<motion>
+				<cycle begin="0" end="380" />
+				<coord-begin x="0" y="42" />
+				<fade-in cycles="10" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<object type="text">
+			<data align="left" valign="top" text="Paco Alba" separate-line="5" text-align="right" font-size="16" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="30" end="380" />
+				<coord-begin x="120" y="60" />
+				<fade-in cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<object type="text">
+			<data align="right" valign="top" text="Tirititran" separate-line="5" text-align="center" font-size="16" font-ttf="$fuente$" background-transparent="true" fgR="238" fgG="194" fgB="16" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="80" end="380" />
+				<coord-begin x="390" y="210" />
+				<fade-in cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- PACO ALBA -->
+		<object type="text">
+			<data align="left" valign="top" text="Con las bombas que tiran, los fanfaroneee..." separate-line="5" text-align="left" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="30" end="130" />
+				<coord-begin x="140" y="90" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- TIRITITRAN -->
+		<object type="text">
+			<data align="right" valign="top" text="Paco, ¿tú no puedes dejar de cantar?" separate-line="5" text-align="right" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="80" end="180" />
+				<coord-begin x="380" y="240" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- PACO ALBA -->
+		<object type="text">
+			<data align="left" valign="top" text="¡Que no, que no! Que el Bizcone ha|tomado el castillo de Santa Catalina|y está tirando minas para pararte los pies" separate-line="5" text-align="left" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="130" end="230" />
+				<coord-begin x="140" y="90" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- TIRITITRAN -->
+		<object type="text">
+			<data align="right" valign="top" text="¿Qué dise?." separate-line="5" text-align="right" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="180" end="280" />
+				<coord-begin x="380" y="240" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- PACO ALBA -->
+		<object type="text">
+			<data align="left" valign="top" text="Lo que oyes, después del espigón|te vas a encontrar con un follón liao" separate-line="5" text-align="left" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="230" end="380" />
+				<coord-begin x="140" y="90" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+		<!-- TIRITITRAN -->
+		<object type="text">
+			<data align="right" valign="top" text="Vale, Paco. Tendré cuidado. Grasia pisha" separate-line="5" text-align="right" font-size="14" font-ttf="$fuente$" background-transparent="true" fgR="255" fgG="255" fgB="255" bgR="0" bgG="0" bgB="0" />
+			<motion>
+				<cycle begin="280" end="380" />
+				<coord-begin x="380" y="240" />
+				<curtain-in-horizontal cycles="20" />
+				<fade-out cycles="20" />
+			</motion>
+		</object>
+	</objects>
+</anim>

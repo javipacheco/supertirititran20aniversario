@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<anim>
+	<loading>
+		<load file="cargando.timp" />
+	</loading>
+	<objects>
+		<object type="background">
+			<background cycle="0" red="0" green="0" blue="0" />
+		</object>
+
+		<object type="image">
+			<data align="center" valign="center" file="fondovineta1.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="10" end="510" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="tetengo.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="60" end="150" />
+				<coord-begin x="0" y="0" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" file="espera.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="150" end="240" />
+				<coord-begin x="640" y="5" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="ahno.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="240" end="330" />
+				<coord-begin x="20" y="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" file="puesporque.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="330" end="390" />
+				<coord-begin x="640" y="10" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="right" file="porque.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="390" end="450" />
+				<coord-begin x="590" y="25" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="si.timp" image-with-alpha="true" />
+			<motion>
+				<cycle begin="450" end="510" />
+				<coord-begin x="120" y="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="vineta2.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="510" end="600" />
+				<coord-begin x="320" y="240" />
+				<fade-out cycles="20" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data align="center" valign="center" file="vineta3.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="580" end="730" />
+				<coord-begin x="320" y="240" />
+				<fade-in cycles="20" />
+				<fade-out cycles="70" />
+				<disappear-to-end value="true" />
+			</motion>
+		</object>
+		<object type="image">
+			<data file="final.timp" image-with-alpha="false" />
+			<motion>
+				<cycle begin="730" end="1000" />
+				<coord-begin x="0" y="0" />
+				<fade-in cycles="20" />
+			</motion>
+		</object>
+	</objects>
+</anim>

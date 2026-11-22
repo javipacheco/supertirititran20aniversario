@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#071621" />
+    <meta
+      name="description"
+      content="SuperTirititran 20 Aniversario: un superhéroe, tres misiones y mucho arte. Defiende Cádiz en este juego de disparos con los gráficos y sonidos originales."
+    />
+    <title>SuperTirititran 20 Aniversario</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/intercom/tirititran0.png"
+    />
+  </head>
+  <body class="intro-open">
+    <section
+      id="anniversary-intro"
+      class="anniversary-intro"
+      aria-labelledby="anniversary-title"
+    >
+      <div class="anniversary-stars" aria-hidden="true"></div>
+      <div class="anniversary-content">
+        <p class="anniversary-eyebrow">EL SUPERHÉROE DE CÁDIZ ESTÁ DE VUELTA</p>
+        <div class="anniversary-art" aria-hidden="true">
+          <div class="anniversary-orbit"></div>
+          <img src="./assets/images/vs_fase1/tirititran_il.png" alt="" />
+          <span class="anniversary-stamp">20<small>AÑOS CON ARTE</small></span>
+        </div>
+        <h1 id="anniversary-title">
+          <span>SUPER</span>TIRITITRAN<small>20 ANIVERSARIO</small>
+        </h1>
+        <p class="anniversary-subtitle">
+          No todas las ciudades tienen un SuperHéroe.
+        </p>
+        <div class="anniversary-actions">
+          <button id="anniversary-enter" class="anniversary-play">
+            EMPEZAR A JUGAR <span aria-hidden="true">▶</span>
+          </button>
+          <a
+            href="https://youtu.be/SCExCli5l7s"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="anniversary-video"
+            ><span aria-hidden="true">▷</span> VÍDEO HOMENAJE
+            <small>20 aniversario ↗</small
+            ><span class="sr-only"> (se abre en una pestaña nueva)</span></a
+          >
+        </div>
+        <p class="anniversary-bottom">HECHO EN CÁDIZ · JUGADO CON MUCHO ARTE</p>
+      </div>
+    </section>
+    <a class="skip" href="#arcade">Ir al juego</a>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="page" inert>
+      <header class="masthead">
+        <a class="brand" href="./" aria-label="SuperTirititran, inicio"
+          ><span class="crest">T</span
+          ><span
+            >SUPER<span class="brand-yellow">TIRITITRAN</span
+            ><small>20 ANIVERSARIO</small></span
+          ></a
+        >
+        <div class="header-right">
+          <span class="status"><i></i> CÁDIZ TE NECESITA</span
+          ><button
+            class="icon-button"
+            id="sound-toggle"
+            aria-label="Silenciar sonido"
+            title="Silenciar sonido"
+          >
+            ♫</button
+          ><button
+            class="icon-button"
+            id="settings-button"
+            aria-label="Abrir ajustes"
+            title="Ajustes"
+          >
+            ⚙
+          </button>
+        </div>
+      </header>
+      <main id="arcade">
+        <div class="section-label">
+          <span>UNA AVENTURA CON MUCHO ARTE</span
+          ><span class="edition">EDICIÓN 20 ANIVERSARIO</span>
+        </div>
+        <section class="cabinet" aria-label="Recreativa de SuperTirititran">
+          <div class="game-column">
+            <div class="screen-bar">
+              <span
+                ><i class="live-dot"></i>
+                <span id="screen-label">CÁDIZ, ANDALUCÍA</span></span
+              >
+              <div>
+                <button
+                  id="pause-button"
+                  aria-label="Pausar juego"
+                  title="Pausa (P)"
+                >
+                  Ⅱ</button
+                ><button
+                  id="fullscreen-button"
+                  aria-label="Pantalla completa"
+                  title="Pantalla completa"
+                >
+                  ⛶
+                </button>
+              </div>
+            </div>
+            <div class="screen" id="screen">
+              <div
+                id="game"
+                tabindex="0"
+                role="application"
+                aria-label="Juego de disparos. Cursores o WASD para moverse, Control o Z para disparar, X para usar poder, P para pausar."
+              ></div>
+              <div class="screen-vignette" aria-hidden="true"></div>
+              <div class="load-overlay" id="loader">
+                <img
+                  src="./assets/images/vs_fase1/tirititran_il.png"
+                  alt="SuperTirititran"
+                  width="125"
+                />
+                <p>Preparando la defensa de Cádiz…</p>
+                <div class="loading-track">
+                  <span id="load-progress"></span>
+                </div>
+                <small id="load-percent">0%</small>
+              </div>
+              <div id="overlay" class="overlay" hidden></div>
+              <button id="enable-menu-audio" class="enable-menu-audio" hidden>
+                ♫ Activar música
+              </button>
+              <div id="notice" class="notice" hidden aria-live="polite">
+                <strong></strong><span></span>
+              </div>
+              <div id="boss-bar" class="boss-bar" hidden>
+                <div>
+                  <span id="boss-name">JEFE</span><span>JEFE FINAL</span>
+                </div>
+                <div class="boss-track"><span id="boss-health"></span></div>
+                <div id="gods-bars" hidden></div>
+              </div>
+              <div class="touch-controls" id="touch-controls" hidden>
+                <span>ARRASTRA PARA VOLAR</span
+                ><button
+                  id="touch-select"
+                  aria-label="Cambiar poder seleccionado"
+                  title="Cambiar poder"
+                >
+                  ↻</button
+                ><button id="touch-power" aria-label="Usar poder seleccionado">
+                  PODER <b>X</b></button
+                ><button id="touch-call" aria-label="Abrir Intercom">
+                  INTERCOM
+                </button>
+              </div>
+            </div>
+            <div class="screen-footer">
+              <span
+                ><i></i>
+                <span id="footer-status">LISTO PARA DAR CAÑA</span></span
+              ><span id="elapsed">00:00</span>
+            </div>
+          </div>
+          <aside class="dashboard" aria-label="Estado de la partida">
+            <div class="dashboard-content">
+              <div class="mission-heading">
+                <span class="eyebrow" id="mission-tag">EL HÉROE LOCAL</span>
+                <h1 id="mission-title">
+                  No todas las ciudades tienen un SuperHéroe
+                </h1>
+                <p id="mission-place">
+                  Tres misiones. Un superhéroe.<br />Y un italiano con malas
+                  ideas.
+                </p>
+              </div>
+              <div class="scorebox">
+                <span class="eyebrow">PUNTUACIÓN</span
+                ><strong id="score">000000</strong>
+                <div><span>RÉCORD</span><b id="record">000000</b></div>
+              </div>
+              <div class="vitals">
+                <div>
+                  <span class="eyebrow">VIDAS</span
+                  ><strong id="lives">♥ ♥ ♥</strong>
+                </div>
+                <div>
+                  <span class="eyebrow">ENERGÍA</span>
+                  <div class="health-track"><span id="health"></span></div>
+                </div>
+              </div>
+              <div class="powers-title">
+                <span class="eyebrow">SUPERPODERES</span
+                ><span id="power-uses">2 USOS</span>
+              </div>
+              <div class="power-grid" id="powers"></div>
+              <div class="charge-line">
+                <span>RECARGA</span>
+                <div><i id="charge"></i></div>
+              </div>
+              <button class="intercom" id="intercom-button">
+                <img
+                  id="call-portrait"
+                  src="./assets/images/intercom/paco0.png"
+                  alt="Paco Alba"
+                  width="46"
+                  height="46"
+                /><span
+                  ><b>INTERCOM</b
+                  ><small id="call-status">Paco está al liqui</small></span
+                ><span class="call-indicator" id="call-indicator">⌁</span>
+              </button>
+              <div class="mission-progress">
+                <div>
+                  <span class="eyebrow">RUTA DE LA MISIÓN</span
+                  ><b id="progress-percent">0%</b>
+                </div>
+                <div class="route"><span id="route-fill"></span><i>◆</i></div>
+                <div class="route-labels">
+                  <span>INICIO</span><span>JEFE</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+        <div
+          class="controls-strip"
+          role="group"
+          aria-label="Controles del juego"
+        >
+          <span><kbd>↑ ↓ ← → / WASD</kbd> VOLAR</span>
+          <span><kbd>Z / CTRL</kbd> DISPARAR</span>
+          <span><kbd>MAYÚS / C</kbd> CAMBIAR PODER</span>
+          <span><kbd>1–4</kbd> ELEGIR PODER</span>
+          <span><kbd>ALT (⌥) / X</kbd> LANZAR PODER</span>
+          <span><kbd>ESPACIO</kbd> INTERCOM</span>
+          <span><kbd>P / ESC</kbd> PAUSA</span>
+          <button id="help-button">CÓMO JUGAR ↗</button>
+        </div>
+        <div class="chapter-list" aria-label="Las tres misiones">
+          <div class="chapter active" data-phase="1">
+            <span>01</span>
+            <div>
+              <b>LA PLAYA</b><small>Playa de La Caleta · El Balneario</small>
+            </div>
+            <i>↗</i>
+          </div>
+          <div class="chapter" data-phase="2">
+            <span>02</span>
+            <div><b>LA BAHÍA</b><small>Astilleros · Carranza</small></div>
+            <i>↗</i>
+          </div>
+          <div class="chapter" data-phase="3">
+            <span>03</span>
+            <div>
+              <b>EL CARNAVAL</b><small>Avenida · Puertas de Tierra</small>
+            </div>
+            <i>↗</i>
+          </div>
+        </div>
+      </main>
+      <footer class="page-footer">
+        <span>HECHO EN CÁDIZ. SALVADO POR TI.</span
+        ><button id="credits-button">CRÉDITOS & HISTORIA ↗</button>
+      </footer>
+    </div>
+    <dialog id="settings-dialog">
+      <div class="dialog-heading">
+        <span class="eyebrow">A TU GUSTO</span
+        ><button data-close aria-label="Cerrar ajustes">×</button>
+      </div>
+      <h2>Ajusta la recreativa</h2>
+      <label
+        >Música
+        <input
+          id="music-volume"
+          type="range"
+          min="0"
+          max="100"
+          value="45" /></label
+      ><label
+        >Efectos y voces
+        <input
+          id="effects-volume"
+          type="range"
+          min="0"
+          max="100"
+          value="55" /></label
+      ><label class="check"
+        ><input id="auto-fire" type="checkbox" checked /> Disparo
+        automático</label
+      ><label class="check"
+        ><input id="reduced-motion" type="checkbox" /> Reducir sacudidas y
+        destellos</label
+      >
+      <p class="muted">Las preferencias se guardan en este navegador.</p>
+    </dialog>
+    <dialog id="help-dialog">
+      <div class="dialog-heading">
+        <span class="eyebrow">MANUAL DEL HÉROE</span
+        ><button data-close aria-label="Cerrar ayuda">×</button>
+      </div>
+      <h2>¡Dale caña, pisha!</h2>
+      <p>
+        Vuela, esquiva y salva Cádiz. La mira de impacto es pequeña: protege el
+        centro de tu héroe.
+      </p>
+      <dl>
+        <dt>Volar</dt>
+        <dd>Cursores / WASD · arrastrar en móvil</dd>
+        <dt>Disparar</dt>
+        <dd>Control / Z · automático por defecto</dd>
+        <dt>Seleccionar poder</dt>
+        <dd>1–4 / Mayúsculas / C</dd>
+        <dt>Usar poder</dt>
+        <dd>Alt / X / botón PODER</dd>
+        <dt>Intercom</dt>
+        <dd>Espacio · continúa con Espacio o Enter</dd>
+        <dt>Pausa</dt>
+        <dd>P / Escape</dd>
+      </dl>
+      <p>
+        <b>Recogibles:</b> verde mejora el disparo, violeta recarga los poderes
+        y celeste añade una vida. Acércate para atraerlos.
+      </p>
+      <p>
+        <b>Armas y poderes:</b> la primera mejora da láser; la segunda, triple
+        con munición limitada. Escudo y clones duran 18 segundos. La bomba lanza
+        una onda y «¡Ese Cádiz!» suelta 25 balones que rebotan. Tres recogibles
+        de poder recargan un uso.
+      </p>
+      <p>
+        <b>Rachas:</b> encadena enemigos para multiplicar puntos. Cada jefe
+        avisa antes de atacar. Reserva un poder para salir de un apuro.
+      </p>
+      <p class="muted">
+        Mando: stick izquierdo, A disparo, B poder, X Intercom, Y selección,
+        Start pausa.
+      </p>
+    </dialog>
+    <dialog id="credits-dialog">
+      <div class="dialog-heading">
+        <span class="eyebrow">CON DENOMINACIÓN DE ORIGEN</span
+        ><button data-close aria-label="Cerrar créditos">×</button>
+      </div>
+      <p
+        id="credits-debug-status"
+        class="credits-debug-status"
+        role="status"
+        hidden
+      ></p>
+      <h2>
+        <button id="credits-debug-title" class="credits-debug-title">
+          Un superhéroe muy nuestro.
+        </button>
+      </h2>
+      <p>
+        SuperTirititran defiende a los gaditanos del Profesor Bizcone. Esta
+        edición web reconstruye la aventura con sus dibujos, voces y música
+        originales.
+      </p>
+      <dl>
+        <dt>Programación original</dt>
+        <dd>Fco. Javier Pérez Pacheco</dd>
+        <dt>Grafista</dt>
+        <dd>Jesús Carrasco Carrasco</dd>
+        <dt>Música</dt>
+        <dd>Shano Lores</dd>
+      </dl>
+      <p class="muted">
+        Nuevas oleadas, patrones de jefes y ajustes de juego para esta
+        adaptación. Con todo el arte del original.
+      </p>
+    </dialog>
+    <div
+      id="announcement"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

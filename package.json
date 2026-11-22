@@ -1,0 +1,33 @@
+{
+  "name": "supertirititran20aniversario",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:assets": "node scripts/prepare-assets.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run prepare:assets && tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "npm run prepare:assets && node --test tests/*.test.mjs",
+    "test:intros": "node tests/intros-browser.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "predev": "npm run prepare:assets",
+    "format": "prettier --write src scripts/prepare-assets.mjs tests index.html vite.config.ts",
+    "test:phase-loading": "node tests/phase-loading-browser.mjs",
+    "test:pages": "node tests/pages-browser.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "fast-xml-parser": "^5.3.0",
+    "prettier": "^3.9.9",
+    "sharp": "^0.35.5",
+    "typescript": "~5.9.0",
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
