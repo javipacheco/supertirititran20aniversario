@@ -29,7 +29,11 @@ npm run test:phase-loading
 
 ## Publicación
 
-La compilación produce una web estática compatible con GitHub Pages. `vite.config.ts` utiliza rutas relativas para que funcione también en la subcarpeta del repositorio. Para comprobar la compilación estática, ejecutar `npm run preview` y, en otra terminal, `npm run test:pages`. Se puede indicar otra dirección con `TEST_URL`, incluida una subcarpeta. La publicación y su automatización se configurarán cuando exista el nuevo repositorio. No hay cuentas de alojamiento, credenciales, servicios de medición ni servidor de partidas configurados.
+La compilación produce una web estática compatible con GitHub Pages. `vite.config.ts` utiliza rutas relativas para que funcione también en la subcarpeta del repositorio. Para comprobar la compilación estática, ejecutar `npm run preview` y, en otra terminal, `npm run test:pages`. Se puede indicar otra dirección con `TEST_URL`, incluida una subcarpeta. La publicación está preparada con GitHub Actions en `.github/workflows/pages.yml`: cada subida a `main` instala dependencias, compila, ejecuta las pruebas de lógica y publica únicamente `dist/`. También se puede ejecutar manualmente desde Actions. En Settings → Pages, la fuente debe ser GitHub Actions. No necesita tokens personales ni secretos añadidos.
+
+Dirección del juego: https://javipacheco.github.io/supertirititran20aniversario/
+
+No hay servicios de medición ni servidor de partidas configurados.
 
 ## Controles
 
